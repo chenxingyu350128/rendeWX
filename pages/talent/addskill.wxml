@@ -1,0 +1,19 @@
+<!--pages/talent/addskill.wxml-->
+<!-- 添加技能 -->
+<view>
+  <text class='sectected-title'>已选技能</text>
+  <view class='sectected'>
+    <view class='sectected-item' wx:for="{{sectectedList}}">
+      <text class='text'>{{item}}</text>
+      <view class='red' bindtap='del' data-index="{{index}}"><text class='del'></text></view>
+    </view>
+  </view>
+</view>
+<view>
+  <text class='no-sectect-title'>待选技能</text>
+  <view class='no-sectect'>
+    <view wx:for="{{noSectectList}}" class='no-sectect-item' bindtap='add' data-index="{{index}}">
+      <text class='text text1'>{{item}}</text>
+    </view>
+  </view>
+</view>

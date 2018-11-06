@@ -1,0 +1,64 @@
+/* pages/talent/resume.wxss */
+@import '/pages/talent/talentInfo.wxss';
+.edit-img{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 2% 4% 0 8%;
+  display: inline-block;
+}
+.FS-small{
+  font-size: 28rpx;
+}
+.resume-bg{
+  background-color: gainsboro;
+}
+.bottom-finish{
+  /* width:462rpx;
+  line-height:61rpx;
+  float:left;
+  background-color:rgb(70, 144, 255);
+  color:white;
+  text-align:center;
+  margin:1% auto;
+  border-radius:50rpx;
+  border:1px solid rgb(70, 144, 255);
+  font-size:0.8rem; */
+line-height:61rpx;
+font-size:0.85em;
+color:#fff;
+text-align:center;
+width:426rpx;
+border-radius:50rpx;
+background:#3385ff;
+height:61rpx;
+
+
+}
+.add-expr{
+   border-bottom: 1px solid gainsboro;
+}
+.add-expr button{
+  width:40%;
+  padding:1% auto;
+  text-align:center;
+  border-radius:10rpx;
+  border:1px solid rgb(70, 144, 255);
+  background-color:white;
+  margin:3% 30% 3% 30%;
+  color:rgb(70, 144, 255);
+  display:inline-block;
+  line-height:64rpx;
+  font-size:0.8rem;
+  outline: 0px;
+}
+.add-kill{
+  color: rgb(70, 144, 255);
+}
+.edit-icon{
+  width:25rpx;
+  height:26rpx;
+  margin-left:2%;
+  display:inline-block;
+  margin-top:5rpx;
+
+}

@@ -1,0 +1,86 @@
+<!-- 人才首页 -->
+ <view class='talent-search fl'>
+      <view class='left fl'>
+        <image src='/assets/talent/search.gif'></image>
+        <input placeholder='搜索感兴趣的职位/公司'/>
+      </view>
+      <view class='right fl'><image src='/assets/talent/message.png'></image></view>
+  </view>
+  <!-- 选择框 -->
+  <view class='talent-select fl'> 
+    <!-- 区域 -->
+      <view class='select-box'>
+          <view class="phone_one fl" bindtap="clickPerson1">
+            <view class="phone_personal fl">{{firstPerson}}</view>
+            <image src="/assets/talent/select.jpg" class="personal_image {{selectArea1 ? 'rotateRight' :''}}"></image> 
+            <!-- //三目法判断图片要不要旋转180。 -->
+        </view>
+      </view>
+
+<!-- 行业 -->
+      <view class='select-box'>
+    <view class="phone_one fl" bindtap="clickPerson2">
+      <view class="phone_personal fl">{{secondPerson}}</view>
+      <image src="/assets/talent/select.jpg" class="personal_image {{selectArea3 ? 'rotateRight' :''}}"></image> 
+      <!-- //三目法判断图片要不要旋转180。 -->
+   </view>
+</view>
+<!-- 经验 -->
+<view class='select-box'>
+    <view class="phone_one fl" bindtap="clickPerson3">
+      <view class="phone_personal fl">{{thirdPerson}}</view>
+      <image src="/assets/talent/select.jpg" class="personal_image {{selectArea3 ? 'rotateRight' :''}}"></image> 
+      <!-- //三目法判断图片要不要旋转180。 -->
+   </view>
+</view>
+ </view>
+
+    <!-- 区域下拉内容 -->
+        <view class="person_box">
+          <view class="phone_select top" hidden="{{selectPerson1}}">
+            <view wx:for='{{areaList}}'  class="select_one" bindtap="mySelect" data-me="{{item}}">{{item}}</view>
+          </view>
+        </view>
+
+     <!-- 行业下拉内容 -->
+  <view class="person_box">
+    <view class="phone_select top" hidden="{{selectPerson2}}">
+      <view class="type_one" bindtap="typeSelect"  wx:for='{{positiontypeList}}' data-me="{{item}}">{{item}}</view>
+    </view>
+  </view>
+  <!-- 规模下拉内容 -->
+  <view class="person_box">
+    <view class="phone_select top" hidden="{{selectPerson3}}">
+      <view wx:for='{{scaleList}}' class="expr_one" bindtap="exprselect" data-me="{{item}}">{{item}}</view>
+    </view>
+  </view>
+
+<!-- 人才列表 -->
+<view class='talent-list-box'>
+    <view class='talent-list' bindtap='goInfo'>
+      <view class='list-top'>
+          <view class='top-image'> <image src='/assets/talent/hunman-tx.gif'></image></view>
+          <view class='list-intr'>
+              <view class='top-name'>
+                <view class='fl '>张雨文</view> 
+                <view class='hope-sarlay fr'>
+                  期望薪资:     
+                  <view class='fr colB'>4000-5000￥</view>
+                </view>
+              </view>
+              <text class='top-expr'>2年以上经验 | 本科学历</text>
+          </view>
+      </view>
+
+      <view class='intr-message'>平面设计师，包装设计及，其他，排版设计，美术编辑</view>
+          <view class='intr-message'>期望职位：<text class='colB'>平面设计师</text> <text class='fr colG'>2018-09-05</text></view>
+    </view>
+    <view class='hrDiv'></view>
+</view>
+<!-- 人才列表 -->
+
+
+
+
+
+   

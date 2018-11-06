@@ -1,0 +1,135 @@
+/* pages/talent/talentInfo.wxss */
+/* 人才信息 */
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.colB{
+  color: rgb(70, 144, 255)
+}
+.colG{
+  color: gray
+}
+.FS{
+  font-size: .8rem;
+}
+.FS-middle{
+  font-size: 0.65rem;
+}
+.FS-weight{
+  font-weight: 600;
+}
+.info-name{
+  font-weight: 600;
+  font-size: .8rem;
+  margin-bottom: 4%;
+}
+.talent-top{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 20rpx 0;
+}
+
+.talent-Info{
+  width: 92%;
+  padding: 2% 4% 3% 4%;
+  border-bottom: 1px solid gainsboro;
+}
+.info-left{
+   width: 73%;
+}
+.info-right{
+     width: 20%;
+}
+.info-right image{
+  width: 125rpx;
+  height: 125rpx;
+  border-radius: 100%;
+}
+.info-intr{
+  margin: 30rpx 0;
+}
+.info-intr image{
+  width: 35rpx;
+  height: 35rpx;
+  
+}
+.info-intr text{
+  color: rgb(70, 144, 255);
+  margin: 0 60rpx 0 20rpx;
+  font-size: .7rem;
+}
+.intr-content{
+  width: 100%;
+  font-size: 30rpx;
+  line-height: 55rpx;
+}
+.intr-expr{
+  border-left: 6rpx solid  rgb(70, 144, 255);
+  margin: 20rpx 0 30rpx 0;
+  padding: 0 20rpx;
+  font-weight: 600;
+}
+.expr-time{
+  font-size: 28rpx;
+}
+.intr-skill{
+  border:1px solid rgb(70, 144, 255);
+  border-radius:80rpx;
+  padding:0rpx 30rpx;
+  background-color:white;
+  float:left;
+  font-size:.65rem;
+  margin-right:30rpx;
+  line-height:49rpx;
+}
+.exp-null{
+  width: 100%;
+  display: inline-block;
+  height: 250rpx;
+}
+.info-bottom{
+  padding: 2% 4%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 44;
+  background-color: white;
+ -moz-box-shadow:0px -4px 7px #B8B8B8; -webkit-box-shadow:0px -4px 7px #B8B8B8; box-shadow:0px -4px 7px #B8B8B8;
+ display:flex;
+ justify-content:center;
+
+}
+.bottom-call{
+  display: inline-block;
+  float: left;
+  color: rgb(70, 144, 255);
+  background-color: white;
+  text-align: center;
+  width: 40%;
+  border-radius: 50rpx;
+  border: 1px solid rgb(70, 144, 255);
+  margin-top: 2%;
+}
+.bottom-intervier{
+  float: left;
+  background-color: rgb(70, 144, 255);
+  color: white;
+  text-align: center;
+   margin-left: 3%;
+  width: 50%;
+  border-radius: 50rpx;
+   border: 1px solid rgb(70, 144, 255);
+    margin-top: 2%;
+}
+.call-img{
+  float: left;
+  width: 40rpx;
+  height: 40rpx;
+ position: absolute;
+ z-index: 2;
+ margin: 5% 4%;
+}

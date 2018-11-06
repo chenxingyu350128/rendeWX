@@ -1,0 +1,213 @@
+/* pages/tab/talent.wxss */
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.colB{
+  color: rgb(70, 144, 255)
+}
+.colG{
+  color: gray
+}
+.talent-top{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 20rpx 0;
+}
+.talent-search{
+ display:flex;
+align-items:center;
+padding:20rpx 30rpx;
+
+}
+.left{
+  width: 80%;
+}
+.left input{
+  width:530rpx;
+  height:49rpx;
+  line-height:49rpx;
+  background:#f7f7f7;
+  border-radius:24.5rpx;
+  padding-left:105rpx;
+  font-size:20rpx;
+  margin-right:30rpx;
+
+}
+.left image{
+  float: left;
+ width:27rpx;
+height:26rpx;
+
+  position: absolute;
+  z-index: 2;
+  padding: 12rpx 25px;
+}
+.right{
+  width: 10%;
+}
+.right image{
+  position:absolute;
+  width:37rpx;
+  height:33rpx;
+  right:5%;
+  margin-top:-14rpx;
+
+}
+.talent-select{
+  width: 99%;
+  margin-top:20rpx;
+ display: inline-block;
+  border-bottom: 1px solid whitesmoke;
+}
+.select-box{
+  width: 33.3%;
+  float: left;
+}
+/* 下拉选择框 */
+.phone_one{
+    display: flex; 
+    /* //用flex布局更方便。 */
+    position: relative;
+    justify-content: space-between;
+    background-color:white;
+    width:100%;
+    height:70rpx;
+    margin:0 auto;
+    border-radius: 10rpx;
+    border-bottom:2rpx solid rgb(255, 255, 255);
+}
+.phone_personal{
+    display: inline-block;
+    padding: 0 1% 0 20%;
+    width: 150rpx;
+    color: black;
+    height:50rpx;
+    line-height:50rpx;
+    overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  font-size:.7rem;
+     
+}
+.person_box{
+    position: relative;
+    /* margin-top: 50rpx; */
+    font-size:.7rem;
+}
+.phone_select{
+  overflow:hidden;
+  margin-top:92rpx;
+  z-index:100;
+  position:absolute;
+  width:100%;
+
+    /* //小程序中z-index和absolute需要同时存在，元素才能脱离文档。 */
+}
+.select_one{
+    text-align: left;
+    background-color: gainsboro;
+    line-height:80rpx;
+    padding-left:46rpx;
+}
+.type_one{
+    text-align: left;
+    background-color: rgb(242, 242, 242);
+    line-height:80rpx;
+    padding-left:46rpx;
+}
+.expr_one{
+    text-align: left;
+    background-color: rgb(250, 250, 250);
+    line-height:80rpx;
+    padding-left:46rpx;
+}
+.personal_image{
+  float: left;
+    z-index: 100;
+    position: absolute;
+    right:5%;
+    width: 25rpx;
+    height: 15rpx;
+    margin:20rpx 20rpx 40rpx 0;
+    transition: All 0.4s ease;  
+    -webkit-transition: All 0.4s ease;
+}
+.rotateRight{
+    transform: rotate(180deg); 
+    /* //180°旋转图片。 */
+}
+.phone_select view:first-child{
+  background-color: white;
+  border: 1px solid whitesmoke;
+}
+
+.talent-list{
+  width: 93%;
+  padding:4% 3%;
+  display: inline-block;
+}
+.list-top{
+  width: 100%;
+  float: left;
+}
+.top-image{
+  /* width: 20%; */
+  float: left;
+}
+.top-image image{
+  float: left;
+  width: 125rpx;
+  height: 125rpx;
+  border-radius: 50px;
+}
+.list-intr{
+  float: left;
+  padding-left:3%; 
+  width: 76%;
+ 
+}
+.hope-sarlay{
+  font-size: 28rpx;
+  color: gray;
+  padding: 0 2%;
+  display: inline-block;
+}
+.hope-sarlay view{
+    font-size: .7rem;
+}
+
+.top-name{
+  width: 100%;
+  float: left;
+  font-size:.8rem;
+}
+.top-expr{
+font-size:.75rem;
+color:gray;
+padding-top:5%;
+display:inline-block;
+}
+.intr-message{
+  font-size: .75rem;
+  color: black;
+  margin-top: 3%;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.hrDiv{
+  widows: 100%;
+  height: 10rpx;
+  background-color: whitesmoke;
+}
+
+.top{
+  margin-top:180rpx;
+
+}

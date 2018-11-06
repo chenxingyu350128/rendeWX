@@ -1,0 +1,73 @@
+/* pages/talent/addworkexpr.wxss */
+@import '/pages/talent/talentInfo.wxss';
+.addworkexpr{
+  width: 100%;
+  float: left;
+}
+.addtitle{
+background-color:whitesmoke;
+padding:1rem 0 .5rem 1rem;
+/* width:100%; */
+}
+.addcontent{
+  background-color: white;
+   padding: 2% 4%;  
+ color: gray;
+  width: 92%;
+    position: absolute;
+}
+.write{
+  display: inline-block;
+  right: 2%;
+  }
+  .workarea{
+    background-color: white;
+    padding: 2% 4%;  
+    color:black;
+    width: 91%;
+  }
+  .write-null{
+    width: 100%;
+    height: 160rpx;
+    background-color: whitesmoke; 
+    display: inline-block;
+  }
+  .add-view{
+    display: flex;
+    justify-content: center
+  }
+  .bottom-finish{
+    line-height:61rpx;
+    font-size:0.85em;
+    color:#fff;
+    text-align:center;
+    width:426rpx;
+    border-radius:50rpx;
+    background:#3385ff;
+    height:61rpx;
+
+}
+.num{
+  padding: 0 20rpx;
+  font-size: 27rpx
+}
+.inputnum{
+   font-size: 27rpx
+}
+.go-icon{
+  width: .5rem;
+  height: .6rem;
+  margin-left: 2%;
+  margin-top: 4%;
+  right: 1rem;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+.shadow{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 90rpx;
+  box-shadow:0px -4px 7px #B8B8B8;
+}

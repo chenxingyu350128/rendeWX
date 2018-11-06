@@ -1,0 +1,128 @@
+/* pages/reviseEnterprise/reviseEnterprise.wxss */
+page{
+  background: #f7f7f7;
+}
+.position{
+  padding: 26rpx 0rpx 26rpx 29rpx;
+  font-size: 0.8em;
+}
+.position-name-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+  padding: 21rpx 30rpx;
+  font-size: 0.85em;
+  justify-content: space-between;
+}
+.arrow{
+  width: 20rpx;
+  height: 20rpx;
+  border:#181818 solid;
+  border-width: 2rpx 2rpx 0 0;
+  transform: rotate(45deg);
+  margin-right: 32rpx;
+}
+.post-requirements{
+  display: flex;
+  flex-direction: column;
+}
+.blue{
+  color: #3385ff;
+}
+.black{
+  color: #666;
+}
+.word-number{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 46rpx;
+  font-size: 0.65em;
+}
+.welfare{
+  padding: 9rpx 32rpx;
+  border: 2rpx solid #3385ff;
+  border-radius: 100rpx;
+  margin-right: 17rpx;
+  margin-top: 13rpx;
+}
+.add{
+  color: #3385ff;
+  align-items: center;
+  justify-content: center;
+  padding-left: 51rpx;
+  padding-right: 35rpx;
+}
+.symbol{
+  width: 23rpx;
+  height: 23rpx;
+  margin-right: 17rpx;
+}
+.welfare-wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.welfare-wrap1{
+  flex-wrap: wrap;
+  padding-top: 0;
+}
+/* .shodow{
+  height: inherit;
+  box-shadow:0px -4px 7px #B8B8B8;
+} */
+.info-bottom{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 44;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 19rpx;
+}
+.bottom-finish{
+  line-height:61rpx;
+  font-size: 0.85em;
+  color: #fff;
+  text-align: center;
+  width: 426rpx;
+  border-radius: 50rpx;
+  background: #3385ff;
+  height: 61rpx;
+}
+.text-area{
+  width:100%;
+  z-index:1;
+}
+.text-area1{
+  height:100rpx;
+}
+.block{
+  height: 100rpx;
+}
+.shadow{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 90rpx;
+  box-shadow:0px -4px 7px #B8B8B8;
+}
+.position-name-wrap-image image{
+  width: 133rpx;
+  height: 133rpx;
+}
+.position-name-wrap-image1 image{
+  width: 291rpx;
+  height: 210rpx;
+}
+.position-name-wrap-image1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  width: 100%;
+}

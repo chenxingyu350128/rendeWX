@@ -1,0 +1,14 @@
+<!--pages/setting/setting.wxml-->
+<view class='reviseHeadSculptureImg'  wx:for="{{revise1}}" bindtap='toheadSculpture'>
+  <text>{{item.reviseHeadSculptureName}}</text>
+  <image class="headSculptureImg" src="{{item.reviseHeadSculptureImg}}"></image>
+</view>
+<view class='revise-wrap'>
+  <view class='revise' wx:for="{{revise2}}" bindtap='click' data-index='{{index}}'>
+    <text class='name'>{{item.name}}</text>
+    <text class='text'>{{item.text}}</text>
+  </view>
+</view>
+<view class='btn'>
+  <text>退出</text>
+</view>

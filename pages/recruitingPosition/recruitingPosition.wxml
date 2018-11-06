@@ -1,0 +1,24 @@
+<!--pages/recruitingPosition/recruitingPosition.wxml-->
+<view class="nav_title">
+  <view class="nav_tab">
+    <view wx:for="{{list}}" wx:key="index" data-index='{{index}}' bindtap="selected">
+      <text class="{{selected==index?'active':'common'}}">{{item}}</text>
+    </view>
+  </view>
+  <!-- tab框显示内容 -->
+  <!-- 正在热招-->
+  <view wx:if="{{selected == 0}}">
+    <view class='postion-item' wx:for="{{recruitingList}}" wx:if="{{item.state1==0}}" bindtap='toPostionDetail'>
+      <view class='postion-item-left'><text class='name'>{{item.name}}</text><text class='money'>{{item.money}}</text></view>
+      <view class='postion-item-right'><text class='state' catchtap='complete' data-index='{{index}}'>{{item.state}}</text><text class='time'>{{item.time}}</text></view>
+    </view>
+  </view>
+
+  <!-- 完成招聘 -->
+  <view wx:if="{{selected == 1}}">
+    <view class='postion-item' wx:for="{{recruitingList}}" wx:if="{{item.state1==1}}" bindtap='toPostionDetail'>
+      <view class='postion-item-left'><text class='name'>{{item.name}}</text><text class='money'>{{item.money}}</text></view>
+      <view class='postion-item-right'><text class='state gray'>{{item.state}}</text><text class='time'>{{item.time}}</text></view>
+    </view>
+  </view>
+</view>

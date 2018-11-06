@@ -1,0 +1,2 @@
+/* pages/talent/addskill.wxss */
+@import '/pages/addBenefits/addBenefits.wxss'

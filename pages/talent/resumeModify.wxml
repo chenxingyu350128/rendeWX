@@ -1,0 +1,69 @@
+<!--pages/talent/resumeModify.wxml-->
+<!-- 资料修改 -->
+<view class='info-top'>
+    <text>头像</text>
+    <image src='/assets/talent/hunman-tx.gif' class='modify-img'></image>
+</view>
+<view class='info-modify' >
+    <view class='modifytitle' style='padding-top:0.5rem'>姓名</view>
+    <view>
+     <input value='张玉文' class='modify-content'></input>
+     <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+    </view>
+</view>
+<view class='info-modify'>
+    <view class='modifytitle'>性别</view>
+    <view>
+     <input value='男' class='modify-content'></input>
+     <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+    </view>
+</view>
+<view class='info-modify'>
+    <view class='modifytitle'>参加工作时间</view>
+    <view>
+     <!-- <input value='2016.10' class='modify-content'></input> -->
+        <picker mode="date" value="{{date1}}"  bindchange="bindDate1Change">
+    <view class="picker modify-content">
+      {{date1}}
+    </view>
+  </picker>
+     <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+    </view>
+</view>
+<view class='info-modify'>
+    <view class='modifytitle'>出生年月</view>
+    <view>
+     <!-- <input value='2016.10' class='modify-content'></input> -->
+     <picker mode="date" value="{{date2}}"  bindchange="bindDate2Change">
+      <view class="picker modify-content">
+        {{date2}}
+      </view>
+     </picker>
+     <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+    </view>
+</view>
+<view class='info-modify'>
+    <view class='modifytitle'>求职状态</view>
+    <view>
+     <input value='离职-随时到岗' class='modify-content'></input>
+     <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+    </view>
+</view>
+<view class='info-modify'>
+    <view class='modifytitle'>期望职位</view>
+    <view>
+     <input value='UI设计师' class='modify-content'></input>
+     <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+    </view>
+</view>
+ <view class='info-modify '>
+    <view class='modifytitle'>我的优势</view>
+    <textarea class='modifyarea FS'  maxlength="{{max}}" bindinput="inputs" value='{{adv}}'></textarea>
+    <text class='num fr'>/{{max}}</text>
+    <text class='inputnum fr colB'>{{currentWordNumber}}</text> 
+</view>
+<view class='write-null'></view>
+<view class='shadow'></view>
+<cover-view class='info-bottom'>
+  <cover-view class='bottom-finish'>发布</cover-view>
+</cover-view>

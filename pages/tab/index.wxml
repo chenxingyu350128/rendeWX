@@ -1,0 +1,101 @@
+<view class='header'>
+  <label>
+    <image class='leftImg' mode='aspectFit' src='../../assets/home/searchIcon.png'></image>
+    <input bindconfirm='searchPage' placeholder='搜索感兴趣的职位/公司'></input>
+  </label>
+  <image class='rightImg' mode='aspectFit' src='../../assets/home/msgIcon.png' catchtap='toMessage'></image>
+</view>
+<view class='swiperShell'>
+  <swiper indicator-dots='true'>
+    <swiper-item>
+      <image  src='../../assets/home/lbt.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image  src='../../assets/home/lbt.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image  src='../../assets/home/lbt.png'></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class='nav'>
+  <view bindtap='wpInfo' class='navItem'>
+    <image class='navImg' src='../../assets/home/wpInfo.png'></image>
+    <view>职场资讯</view>
+  </view>
+  <view bindtap='store' class='navItem'>
+    <image class='navImg' src='../../assets/home/store.png'></image>
+    <view>积分商城</view>
+  </view>
+  <view bindtap='hr' class='navItem'>
+    <image class='navImg' src='../../assets/home/hr.png'></image>
+    <view>猎头服务</view>
+  </view>
+  <view bindtap='jobFair' class='navItem'>
+    <image class='navImg' src='../../assets/home/jobFair.png'></image>
+    <view>招聘会</view>
+  </view>
+  <view bindtap='general' class='navItem'>
+    <image class='navImg' src='../../assets/home/general.png'></image>
+    <view>普工专区</view>
+  </view>
+  <view bindtap='shop' class='navItem'>
+    <image class='navImg' src='../../assets/home/shop.png'></image>
+    <view>店铺/普工</view>
+  </view>
+  <view bindtap='proxy' class='navItem'>
+    <image class='navImg' src='../../assets/home/proxy.png'></image>
+    <view>人力代理</view>
+  </view>
+</view>
+<view bindtap='ocpDetail' class='ocp'>
+  <view class='layer_1'>
+    <view class='left_1'>
+      <view class='occupation'>某某安全员</view>
+      <view class='demand'>
+        <text space='ensp'>福建-福州 | 不限经验 | 大专</text>
+      </view>
+    </view>
+    <view class='right_1'>
+      <view class='salary'>3000-8000元</view>
+      <view class='createAt'>09月12日</view>
+    </view>
+  </view>
+  <view class='layer_2'>
+    <image class='left_2' src='../../assets/home/companyLogo1.png'></image>
+    <view class='right_2'>
+      <view class='companyName'>xxoo公司</view>
+      <view class='welfare'>
+        <text>五险一金</text>
+        <text>年底双薪</text>
+        <text>节日福利</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view bindtap='ocpDetail' class='ocp'>
+  <view class='layer_1'>
+    <view class='left_1'>
+      <view class='occupation'>某某安全员</view>
+      <view class='demand'>
+        <text space='ensp'>福建-福州 | 不限经验 | 大专</text>
+      </view>
+    </view>
+    <view class='right_1'>
+      <view class='salary'>3000-8000元</view>
+      <view class='createAt'>09月12日</view>
+    </view>
+  </view>
+  <view class='layer_2'>
+    <image class='left_2' src='../../assets/home/companyLogo1.png'></image>
+    <view class='right_2'>
+      <view class='companyName'>xxoo公司</view>
+      <view class='welfare'>
+        <text>五险一金</text>
+        <text>年底双薪</text>
+        <text>节日福利</text>
+      </view>
+    </view>
+  </view>
+</view>

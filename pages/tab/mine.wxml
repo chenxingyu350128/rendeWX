@@ -1,0 +1,52 @@
+<!--pages/tab/mine.wxml-->
+<view class='personal' wx:for="{{personalInfo}}">
+  <image class="headSculptureImg" src="{{item.headSculpture}}"></image>
+  <view class='personal-info'>
+    <text class='name'>{{item.name}}</text>
+    <view wx:if='{{client==1}}' class='tel-wrap'>
+      <image class="telImg" src="{{item.telImg}}"></image>
+      <text class="tel">{{item.tel}}</text>
+    </view>
+    <view wx:if='{{client==2}}' class='tel-wrap'>
+      <image class="enterImg" src="{{item.enterImg}}"></image>
+      <text class="tel">{{item.enter}}</text>
+    </view>
+    <view wx:if='{{client==3}}' class='tel-wrap'>
+      <text class="year">从业年限：5年</text>
+      <text class='recommand'>推荐率100%</text>
+    </view>
+  </view>
+</view>
+<view class='btn-wrap1-wrap'>
+  <view class='btn-wrap1'>
+    <view data-id='{{item.id}}' class='btn-wrap1-item' wx:for="{{topbtnList}}" data-index='{{index}}' catchtap='click1'>
+      <image src='{{item.img}}' mode='aspectFit'></image>
+      <text>{{item.text}}</text>
+    </view>
+  </view>
+</view>
+<view class='line-wrap'><view class='line'></view></view>
+
+<view bindtap='click21' wx:if='{{client==1}}' class='mid-wrap'>
+  <image src='../../assets/mine/centerBG.png'></image>
+    <view class='inner-img'>
+      <view class='percent-wrap'><text class='percent-text'>简历完成度：</text><text class='percent'>95%</text></view>
+    </view>
+</view>
+<view wx:if='{{client==2}}' class='mid-wrap' bindtap='click22'>
+  <image src='../../assets/mine/enterpriseCient.png'></image>
+</view>
+<view wx:if='{{client==3}}' class='mid-wrap'>
+  <image src='../../assets/mine/hrClient.png'></image>
+</view>
+<view class='bottom-wrap'>
+  <view class='bottom' wx:for="{{List}}">
+    <text class='bottom-title'>{{item.title}}</text>
+    <view class='btn-wrap2'>
+      <view class='btn-wrap2-item' wx:for="{{item.listItem}}" wx:for-item="listItem" catchtap='click3' data-id="{{listItem.id}}">
+        <image src='{{listItem.img}}' mode='aspectFit'></image>
+        <text>{{listItem.text}}</text>
+      </view>
+    </view>
+  </view>
+</view>

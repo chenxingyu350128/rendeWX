@@ -1,0 +1,76 @@
+<!--pages/talent/resume.wxml-->
+<!-- 简历 -->
+<view class='talent-Info fl '>
+    <view class='info-left fl'>
+        <view class='info-name'>张雨文<image src='/assets/talent/edit.jpg' class='edit-img'></image> <text class='colG FS-small ' bindtap='goModify'>点击修改资料</text></view>
+        <view class='FS'> <text class='colG'>期望职位：</text><text class='colB'>平面设计师</text></view>
+    </view>
+    <view class='info-right fl'>
+       <image src='/assets/talent/hunman-tx.gif'></image>
+    </view>
+</view>
+<view class='talent-Info fl '>
+        <view class='FS FS-weight'> 离职-随时到岗</view> 
+        <view class='info-intr'>
+            <image src='/assets/talent/info-icon1.jpg'></image>
+            <text >2年</text>
+              <image src='/assets/talent/info-icon2.jpg'></image>
+               <text>大专</text>
+                <image src='/assets/talent/info-icon3.jpg'></image>
+                 <text>23岁</text>
+        </view>
+        <view class='intr-content'>
+          这里大家可以清楚看到api中说到的如何传递参数，其实它这里指的参数仅仅是一些普通的数据类型，我们要传递的实体是object类型，那么我们需要先把实体转成string类型进行传递，在详情页面接受到在逆向转成实体。
+        </view>
+</view>
+<!-- 工作经历 -->
+<view class='talent-Info fl FS'>
+       <view class='intr-expr '>工作经历</view>
+        <view class='FS'> 
+           <text class='FS-weight'> 猩红广告</text>
+              <image src='/assets/talent/edit.jpg' class='edit-icon' bindtap='goeditwork'></image> 
+              <image src='/assets/talent/delect.jpg' class='edit-icon fr'></image> 
+            <text class='fr expr-time colG'> 2017.10.2017.12 </text>
+         
+        </view> 
+        <view class='info-intr FS'>
+            平面设计师
+        </view>
+        <view class='intr-content'>
+          内容：主要负责海报内容设计与餐厅菜单内容设计与常人报内容设计与餐厅菜单内容设计与常报内容设计与餐厅菜单内容设计与常人。
+        </view>
+      
+</view>
+<!-- 添加工作经历 -->
+    <view class='add-expr'>
+            <button bindtap='addworkexpr'> 添加工作经历</button>
+        </view>
+<!-- 工作技能 -->
+<view class='talent-Info fl'>
+       <view class='intr-expr'>工作技能</view>
+        <button class='intr-skill'>UI</button>
+          <button class='intr-skill'>网页设计</button>
+          <button class='intr-skill'>APP设计</button>
+            <button class='intr-skill add-kill' bindtap='addskill'>+</button>
+</view>
+<!-- 教育经历 -->
+<view class='talent-Info fl FS'>
+       <view class='intr-expr '>教育经历</view>
+        <view class='FS'> 
+           <text class='FS-weight '> 福建信息职业技术学院</text>
+             <image src='/assets/talent/edit.jpg' class='edit-icon' bindtap='goeditedu'></image> 
+             <image src='/assets/talent/delect.jpg' class='edit-icon fr'></image> 
+            <text class='fr expr-time colG'> 2017-2017</text>
+        </view> 
+        <view class='info-intr FS'>
+            磨具设计与制造 · 大专
+        </view>         
+</view>
+<!-- 添加工作经历 -->
+    <view class='add-expr'>
+            <button bindtap='addeduexp'> 添加教育经历</button>
+        </view>
+  <view class='exp-null'></view>
+  <view class='info-bottom'>
+          <button class='bottom-finish'>完成</button>
+  </view>

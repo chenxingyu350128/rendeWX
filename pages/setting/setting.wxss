@@ -1,0 +1,52 @@
+/* pages/setting/setting.wxss */
+page{
+  background: #f7f7f7;
+}
+.reviseHeadSculptureImg{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rpx;
+  padding:30rpx 39rpx 29rpx 30rpx;
+  font-size: 0.8em;
+  margin-bottom: 10rpx;
+  background: #fff;
+}
+.headSculptureImg{
+  width: 124rpx;
+  height: 124rpx;
+  border-radius: 100%;
+  border: 2rpx solid  #479eff;
+  margin-left: 40rpx;
+}
+
+.revise-wrap .revise:nth-child(1),.revise-wrap .revise:nth-child(2){
+  border-bottom: 2rpx solid #f7f7f7;
+}
+.revise-wrap .revise:nth-child(1),.revise-wrap .revise:nth-child(2),.revise-wrap .revise:nth-child(3){
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:28rpx 55rpx 27rpx 30rpx;
+  background: #fff;
+}
+.revise-wrap .name{
+  font-size: 0.8em;
+}
+.revise-wrap .text{
+  font-size: 0.7em;
+  color:#9a9a9a;
+}
+
+
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 23rpx;
+  padding: 28rpx;
+  color: #ff0000;
+  font-size: 0.8em;
+  background: #fff;
+}

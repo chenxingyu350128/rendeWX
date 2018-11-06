@@ -1,0 +1,45 @@
+<!--pages/talent/addeduexpr.wxml-->
+<!-- 添加教育经历 -->
+<view class='add-content'>
+   <view class='addworkexpr '>
+     <view class='addtitle FS' style='padding-top:0.5rem'>学校</view>
+     <input class='addcontent FS' placeholder='输入学校名称' ></input>
+     <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+</view>
+<view class='addworkexpr '>
+     <view class='addtitle FS'>学历</view>
+     <input class='addcontent FS' placeholder='输入学历' ></input>
+     <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+</view>
+ <view class='addworkexpr '>
+     <view class='addtitle FS'>专业</view>
+     <input class='addcontent FS' placeholder='输入职位类型' ></input>
+     <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+</view>
+<view class='addworkexpr '>
+     <view class='addtitle FS'>毕业时间</view>
+         <picker mode="date" value="{{date}}"  bindchange="bindDateChange">
+    <view class="picker addcontent FS">
+      {{date}}
+    </view>
+  </picker>
+  <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+</view>
+ <view class='addworkexpr '>
+     <view class='addtitle FS'>在校经历</view>
+     <textarea class='workarea FS' placeholder='输入在校经历' maxlength="{{max}}" bindinput="inputs" ></textarea>
+          <view class='cue-num'>
+              <text class='num fr'>/{{max}}</text>
+               <text class='inputnum fr colB'>{{currentWordNumber|0}}</text> 
+          </view>
+         
+</view>
+  <view class='write-null'></view>
+  <view class='shadow'></view>
+  <cover-view class='info-bottom'>
+          <cover-view class='bottom-finish'>保存</cover-view>
+  </cover-view>
+</view>
+
+
+

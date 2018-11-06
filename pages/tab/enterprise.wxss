@@ -1,0 +1,36 @@
+/* pages/tab/enterprise.wxss */
+@import '/pages/tab/talent.wxss';
+.intr-message text{
+  float: left;
+  background-color: whitesmoke;
+  font-size: .65rem;
+  padding: 10rpx;
+  border-radius: 5rpx;
+  margin-right: 3%;
+}
+.prise-name{
+    float:left;
+    width:2em;
+    height:3em;
+    border-radius:50%;
+    color:white;
+    background-color:orange;
+    text-align:center;
+    font-size:.7rem;
+    padding:.6em 1.1em;
+    margin-left:10rpx;
+}
+.intr-hotposition{
+border-top:1px solid gainsboro;
+font-size:.7rem;
+padding-top:2%;
+margin-left:1%;
+margin-top:1%;
+
+}
+.intr-hotposition image{
+ width:17rpx;
+height:26rpx;
+ float:right;
+
+}

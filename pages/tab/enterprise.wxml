@@ -1,0 +1,141 @@
+<!--pages/tab/enterprise.wxml-->
+<!-- 找企业 -->
+  <view class='talent-select fl'> 
+    <!-- 区域 -->
+      <view class='select-box'>
+          <view class="phone_one fl" bindtap="clickPerson1">
+            <view class="phone_personal fl">{{firstPerson}}</view>
+            <image src="/assets/talent/select.jpg" class="personal_image {{selectArea1 ? 'rotateRight' :''}}"></image> 
+        </view>
+      </view>  
+<!-- 行业 -->
+      <view class='select-box'>
+    <view class="phone_one fl" bindtap="clickPerson2">
+      <view class="phone_personal fl">{{secondPerson}}</view>
+      <image src="/assets/talent/select.jpg" class="personal_image {{selectArea2 ? 'rotateRight' :''}}"></image> 
+      <!-- //三目法判断图片要不要旋转180。 -->
+   </view>
+
+</view>
+<!-- 经验 -->
+<view class='select-box'>
+    <view class="phone_one fl" bindtap="clickPerson3">
+      <view class="phone_personal fl">{{thirdPerson}}</view>
+      <image src="/assets/talent/select.jpg" class="personal_image {{selectArea3 ? 'rotateRight' :''}}"></image> 
+      <!-- //三目法判断图片要不要旋转180。 -->
+   </view>
+</view>
+ </view>
+     <!-- 区域下拉内容 -->
+        <view class="person_box">
+          <view class="phone_select" hidden="{{selectPerson1}}">
+            <view wx:for='{{areaList}}'  class="select_one" bindtap="mySelect" data-me="{{item}}">{{item}}</view>
+          </view>
+        </view>
+
+     <!-- 行业下拉内容 -->
+  <view class="person_box">
+    <view class="phone_select" hidden="{{selectPerson2}}">
+      <view class="type_one" bindtap="typeSelect"  wx:for='{{positiontypeList}}' data-me="{{item}}">{{item}}</view>
+    </view>
+  </view>
+  <!-- 规模下拉内容 -->
+  <view class="person_box">
+    <view class="phone_select" hidden="{{selectPerson3}}">
+      <view wx:for='{{scaleList}}' class="expr_one" bindtap="exprselect" data-me="{{item}}">{{item}}</view>
+    </view>
+  </view>
+
+<!-- 人才列表 -->
+<view class='talent-list-box'>
+    <view class='talent-list' bindtap='goInfo'>
+      <view class='list-top'>
+          <view class='top-image'> <text class='prise-name'>博业建设</text></view>
+          <view class='list-intr'>
+              <view class='top-name'>
+                <view class='fl '>福建博业建设集团有限公司福州分公司</view> 
+              </view>
+              <text class='top-expr'>福建-福州 | 建筑/房地产</text>
+          </view>
+      </view>
+
+      <view class='intr-message'>
+       <text>五险一金</text>
+         <text>年底双薪</text>
+           <text>节日福利</text>
+             <text>各种补贴</text>
+      </view>
+          <view class='intr-hotposition'>
+            <text class='colB'>热招：</text> 
+            <text class='colB'>安全工程师或安全员</text> 
+            <text>等4个职位</text>
+            <image src='/assets/talent/next.jpg'></image>
+          </view>
+    </view>
+    <view class='hrDiv'></view>
+</view>
+
+
+<view class='talent-list-box'>
+    <view class='talent-list' bindtap='goInfo'>
+      <view class='list-top'>
+          <view class='top-image'> <text class='prise-name'>博业建设</text></view>
+          <view class='list-intr'>
+              <view class='top-name'>
+                <view class='fl '>福建博业建设集团有限公司福州分公司</view> 
+              </view>
+              <text class='top-expr'>福建-福州 | 建筑/房地产</text>
+          </view>
+      </view>
+
+      <view class='intr-message'>
+       <text>五险一金</text>
+         <text>年底双薪</text>
+           <text>节日福利</text>
+             <text>各种补贴</text>
+      </view>
+          <view class='intr-hotposition'>
+            <text class='colB'>热招：</text> 
+            <text class='colB'>安全工程师或安全员</text> 
+            <text>等4个职位</text>
+            <image src='/assets/talent/next.jpg'></image>
+          </view>
+    </view>
+    <view class='hrDiv'></view>
+</view>
+
+
+<view class='talent-list-box'>
+    <view class='talent-list' bindtap='goInfo'>
+      <view class='list-top'>
+          <view class='top-image'> <text class='prise-name'>博业建设</text></view>
+          <view class='list-intr'>
+              <view class='top-name'>
+                <view class='fl '>福建博业建设集团有限公司福州分公司</view> 
+              </view>
+              <text class='top-expr'>福建-福州 | 建筑/房地产</text>
+          </view>
+      </view>
+
+      <view class='intr-message'>
+       <text>五险一金</text>
+         <text>年底双薪</text>
+           <text>节日福利</text>
+             <text>各种补贴</text>
+      </view>
+          <view class='intr-hotposition'>
+            <text class='colB'>热招：</text> 
+            <text class='colB'>安全工程师或安全员</text> 
+            <text>等4个职位</text>
+            <image src='/assets/talent/next.jpg'></image>
+          </view>
+    </view>
+    <view class='hrDiv'></view>
+</view>
+<!-- 人才列表 -->
+
+
+
+
+
+   

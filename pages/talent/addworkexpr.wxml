@@ -1,0 +1,58 @@
+<!--pages/talent/addworkexpr.wxml-->
+<!-- 添加教育经历 -->
+<view scroll-y="true" bindscrolltolower='upper' style='height:600px'data-id='1'>
+   <view class='addworkexpr '>
+     <view class='addtitle FS' style='padding-top:0.5rem'>公司名称</view>
+     <input class='addcontent FS' placeholder='输入公司名称' ></input>
+     <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+</view>
+<view class='addworkexpr '>
+     <view class='addtitle FS'>所在行业</view>
+     <input class='addcontent FS' placeholder='输入所在行业' ></input>
+     <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+</view>
+<view class='addworkexpr '>
+     <view class='addtitle FS'>开始时间</view>
+      <picker mode="date" value="{{date1}}" bindchange="bindDate1Change">
+    <view class="picker addcontent FS">
+      {{date1}}
+    </view>
+  </picker>
+       <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+<view class='addworkexpr '>
+     <view class='addtitle FS'>结束时间</view>
+         <picker mode="date" value="{{date2}}"  bindchange="bindDate2Change">
+    <view class="picker addcontent FS">
+      {{date2}}
+    </view>
+  </picker>
+  <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+</view>
+ <view class='addworkexpr '>
+     <view class='addtitle FS'>职位类型</view>
+     <input class='addcontent FS' placeholder='输入职位类型' ></input>
+     <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+</view>
+ <view class='addworkexpr '>
+     <view class='addtitle FS'>职位名称</view>
+     <input class='addcontent FS' placeholder='UI设计师' ></input>
+      <image src='/assets/talent/next.jpg' class='go-icon  write fr'></image> 
+</view>
+ <view class='addworkexpr '>
+    <view class='addtitle FS'>工作内容</view>
+    <textarea class='workarea FS' placeholder='输入工作内容' maxlength="{{max}}" bindinput="inputs" ></textarea> 
+    <!-- <view class='word-number'>
+      <text class='blue'>{{currentWordNumber|0}}</text><text class='black'>/{{max}}</text>
+    </view> -->
+    <text class='num fr'>/{{max}}</text>
+    <text class='inputnum fr colB'>{{currentWordNumber|0}}</text> 
+</view>
+</view>
+  <view class='write-null'></view>
+    <view class='shadow'></view>
+    <cover-view class='info-bottom add-view'>
+      <cover-view class='bottom-finish'>保存</cover-view>
+    </cover-view>
+</view>
+
+

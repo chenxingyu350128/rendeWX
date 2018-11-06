@@ -1,0 +1,77 @@
+<!--pages/reviseEnterprise/reviseEnterprise.wxml-->
+<view class='position-wrap'>
+    <view class='position'>公司名称</view>
+    <view class='position-name-wrap'>
+     <input class='position-name' value='福建博业建设集团有限公司福州分公司'></input>
+     <view class='arrow'></view> 
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>公司行业</view>
+    <view class='position-name-wrap'>
+     <view class='position-name'>建筑/房地产</view>
+     <view class='arrow'></view> 
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>LOGO</view>
+    <view class='position-name-wrap position-name-wrap-image'>
+     <!-- <view class='position-name'>3000-8000元</view> -->
+     <image src='/assets/mine/centerBG.png' mode='aspectFill'></image>
+     <view class='arrow'></view> 
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>公司地址</view>
+    <view class='position-name-wrap'>
+     <input class='position-name' value='福州市鼓楼区五四路159号世界金龙大厦13层'></input>
+     <view class='arrow'></view> 
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>公司性质</view>
+    <view class='position-name-wrap'>
+     <view class='position-name'>民营</view>
+     <view class='arrow'></view> 
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>公司规模</view>
+    <view class='position-name-wrap'>
+     <view class='position-name'>50-100人</view>
+     <view class='arrow'></view> 
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>企业官网</view>
+    <view class='position-name-wrap'>
+     <input class='position-name' value='www.baidu.com'></input>
+     <view class='arrow'></view> 
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>公司介绍</view>
+    <view class='position-name-wrap post-requirements'>
+     <textarea class="position-name text-area" value="{{txtContent2}}" bindinput='txtInput2'/>
+      <view class='word-number'>
+      <text class='blue'>{{currentWordNumber2}}</text><text class='black'>/{{max}}</text>
+     </view>
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>营业执照</view>
+    <view class='position-name-wrap position-name-wrap-image1'>
+     <!-- <textarea class="position-name text-area text-area1" value="{{txtContent1}}" bindinput='txtInput1'/>
+     <view class='word-number'>
+      <text class='blue'>{{currentWordNumber1}}</text><text class='black'>/{{max}}</text>
+     </view> -->
+     <image src='/assets/mine/centerBG.png' mode='aspectFill'></image>
+    </view> 
+</view>
+<view class='block'></view>
+<view class='shadow'></view>
+<cover-view class='info-bottom'>
+  <cover-view class='bottom-finish'>更新</cover-view>
+</cover-view>
+
+

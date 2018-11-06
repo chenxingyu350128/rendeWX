@@ -1,0 +1,84 @@
+/* pages/recruitingPosition/recruitingPosition.wxss */
+page{
+  background: #f7f7f7;
+}
+.nav_tab {
+  width: 100%;
+  display: flex;
+  background: #fff;
+  flex-direction: row;
+}
+.nav_tab view{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_tab view:nth-of-type(1){
+  justify-content: flex-start;
+  margin-left: 41rpx;
+}
+.nav_tab view:nth-of-type(2){
+  justify-content: flex-end;
+  margin-right: 41rpx;
+}
+.nav_tab text{
+  font-size: 0.75em;
+  padding-top: 10rpx;
+  padding-bottom: 7rpx;
+}
+.common{
+  color:#909090;
+}
+.active{
+  color:#000;
+  border-bottom: 4rpx solid #3385ff;
+}
+.nav_title .postion-item:nth-child(1){
+  margin-top: 0rpx;
+}
+.postion-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #fff;
+  padding: 26rpx 29rpx 26rpx 32rpx;
+  margin-top: 10rpx;
+}
+.postion-item-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.postion-item-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.name{
+  font-size: 0.9em;
+}
+.state{
+  padding:10rpx 14rpx;
+  color: #3385ff;
+  border: 2rpx solid #3385ff;
+  border-radius: 10rpx;
+  font-size: 0.65em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.money{
+  margin-top: 36rpx;
+  color: #3385ff;
+  font-size: 0.9em;
+}
+.time{
+  font-size: 0.6em;
+  display: flex;
+  justify-content: flex-end;
+}
+.gray{
+  border: 2rpx solid #c5c1c1;
+  color: #c5c1c1;
+}
