@@ -1,0 +1,32 @@
+.boxTitle{
+  padding: 21rpx 30rpx 23rpx;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.boxTitle .stick{
+  width: 4rpx;
+  height: 29rpx;
+  background: #3385FF;
+  margin-right: 13rpx;
+}
+.boxTitle text{
+  font-size: 27rpx;
+  font-weight: 600;
+}
+
+.boxTitle .titleRight{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 30rpx;
+}
+.titleRight text{
+   font-size: 22rpx;
+  color: #535353;
+}
+.titleRight image{
+  width: 11rpx;
+  height: 18rpx;
+  margin-left: 20rpx;
+}

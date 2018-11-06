@@ -1,0 +1,15 @@
+.swiperShell{
+  width: 690rpx;
+  height: 290rpx;
+  padding:14px 30rpx;
+  background: #fff;
+}
+.swiperShell swiper{
+  width: 100%;
+  height: 100%;
+}
+swiper-item image{
+  width: 100%;
+  height: 100%;
+  border-radius:20rpx;
+}

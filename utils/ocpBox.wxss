@@ -1,0 +1,60 @@
+.ocp{
+  padding: 17rpx 34rpx 23rpx 30rpx;
+  margin: 20rpx 0;
+  background: #fff;
+}
+.layer_1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17rpx;
+}
+.left_1 .occupation{
+  margin-bottom: 25rpx;
+  font-size: 30rpx;
+}
+.demand{
+  color: #909090;
+  font-size: 26rpx;
+}
+.createAt{
+  font-size: 20rpx;
+}
+.right_1 .salary{
+  margin-bottom: 21rpx;
+  font-size: 30rpx;
+  color:#3385FF;
+}
+.right_1 .pounty{
+  font-size: 22rpx;
+  color: #010101;
+  margin-bottom: 22rpx;
+}
+.right_1 .pounty .price{
+  color: #3385FF;
+  font-size: 30rpx;
+}
+.layer_1 .right_1{
+  text-align: right
+}
+.layer_2{
+  display: flex;
+  align-items: center;
+}
+.left_2{
+  margin-right: 33rpx;
+  height: 92rpx;
+  width: 92rpx;
+}
+.companyName{
+  font-size: 26rpx;
+  color: #909090;
+  margin-bottom: 20rpx;
+}
+.welfare text{
+  font-size: 20rpx;
+  color: #3E3E3E;
+  line-height: 34rpx;
+  padding: 0 14rpx;
+  background: #f7f7f7;
+  margin-right: 16rpx;
+}

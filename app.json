@@ -1,0 +1,90 @@
+{
+  "pages": [
+   
+    
+    "pages/tab/index",
+    "pages/talent/resumeModify",
+    "pages/tab/enterprise",
+    "pages/tab/talent",
+    "pages/tab/mine",
+    "pages/search/search",
+    "pages/common/wpInfo",
+    "pages/common/store",
+    "pages/common/hr",
+    "pages/common/jobFair",
+    "pages/common/general",
+    "pages/common/proxy",
+    "pages/common/shop",
+    "pages/common/generalDetail",
+    "pages/common/shopDetail",
+    "pages/talent/talentInfo",
+    "pages/talent/addeduexpr",
+    
+    "pages/prise/priseInfo",
+    "pages/talent/resume",
+    "pages/common/ocpDetail",
+    "pages/myExchange/myExchange",
+    "pages/feedbackFeedback/feedbackFeedback",
+    "pages/contactCustomerService/contactCustomerService",
+    "pages/message/message",
+    "pages/aboutUs/aboutUs",
+    "pages/setting/setting",
+    "pages/deliverySchedule/deliverySchedule",
+    "pages/collectionEnterprise/collectionEnterprise",
+    "pages/collectionPosition/collectionPosition",
+    "pages/common/goods",
+    
+	"pages/addBenefits/addBenefits",
+    "pages/post/post",
+    "pages/entrust/entrust",
+    "pages/collectedResumes/collectedResumes",
+    "pages/recruitingPosition/recruitingPosition",
+	"pages/prise/findwork",
+	"pages/reviseEnterprise/reviseEnterprise",
+	"pages/modifyInformation/password",
+	"pages/modifyInformation/headSculpture",
+	"pages/modifyInformation/name",
+	"pages/modifyInformation/tel",
+	"pages/talent/addskill",
+	"pages/article/articledetail"
+  ],
+  "tabBar": {
+    "selectedColor": "#409DFF",
+    "borderStyle": "#cccccc",
+    "positon": "",
+    "list": [
+      {
+        "pagePath": "pages/tab/index",
+        "text": "首页",
+        "iconPath": "/assets/index.png",
+        "selectedIconPath": "/assets/indexa.png"
+      },
+      {
+        "pagePath": "pages/tab/enterprise",
+        "text": "企业",
+        "iconPath": "/assets/enterprise.png",
+        "selectedIconPath": "/assets/enterprisea.png"
+      },
+      {
+        "pagePath": "pages/tab/talent",
+        "text": "人才",
+        "iconPath": "/assets/talent.png",
+        "selectedIconPath": "/assets/talenta.png"
+      },
+      {
+        "pagePath": "pages/tab/mine",
+        "text": "我的",
+        "iconPath": "/assets/mine.png",
+        "selectedIconPath": "/assets/minea.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "仁德直聘",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "onReachBottomDistance": 100
+  }
+}
