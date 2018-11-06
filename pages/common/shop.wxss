@@ -1,0 +1,17 @@
+/* pages/common/shop.wxss */
+@import '/pages/common/general.wxss';
+.desc{
+  font-size: 26rpx;
+  color: #000;
+  margin-top: 24rpx;
+  margin-bottom: 32rpx;
+}
+.intro{
+  padding: 39rpx 0 16rpx;
+}
+.address{
+  font-size: 26rpx;
+}
+.salary{
+  color: #f00;
+}

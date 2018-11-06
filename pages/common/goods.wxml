@@ -1,0 +1,32 @@
+<!--pages/common/goods.wxml-->
+<image src='../../assets/home/goodsImg.png'></image>
+<view class='payInfo'>
+  <view class='name'>小米电热水壶米家恒温家用电智能热水壶保温烧水壶</view>
+  <view class='priceStorage'>
+    <view class='left'>
+      <text class='price'>90000</text><text space='nbsp'> 个积分</text>
+    </view>
+    <view class='right storage'>剩余库存:200件（限购数量：1件）</view>
+  </view>
+  <view class='exchange'>
+    <view class='left'>立即兑换</view>
+    <view class='right'>
+      <image bindtap='minus' class='minus' src='../../assets/home/minus.png'></image>
+      <text space='emsp'> {{count}} </text>
+      <image bindtap='plus' class='plus' src='../../assets/home/plus.png'></image>
+    </view>
+  </view>
+</view>
+<view class='boxTitle'>
+  <view class='stick'></view>
+  <text>商品详情</text>
+</view>
+<view class='details'>
+  <view class='images'>
+    <image mode='widthFix' src='../../assets/home/layer1.png'></image>
+    <image mode='widthFix' src='../../assets/home/layer2.png'></image>
+    <image mode='widthFix' src='../../assets/home/layer3.png'></image>
+    <image mode='widthFix' src='../../assets/home/layer4.png'></image>
+    <image mode='widthFix' src='../../assets/home/layer5.png'></image>
+  </view>
+</view>

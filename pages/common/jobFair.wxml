@@ -1,0 +1,101 @@
+<!--pages/common/jobFair.wxml-->
+<view class='fairShell'>
+  <view bindtap='wpInfo' class='fairBox'>
+    <image src='../../assets/home/fairImg.png'></image>
+    <view class='middle_layer'>
+      <text class='title'>第xxx期互联网人才交流招聘会</text>
+      <text class='status'>进行中</text>
+    </view>
+     <view class='last_layer'>
+      <view class='count'>
+        <text>参会职位数：</text>
+        <text class='ocpCount'>245</text>
+        <text>参会公司数：</text>
+        <text class='cpyCount'>54</text>
+      </view>
+      <view class='date'>10月23日.周二</view>
+    </view>
+  </view>
+  <view bindtap='wpInfo' class='fairBox'>
+    <image src='../../assets/home/fairImg.png'></image>
+    <view class='middle_layer'>
+      <text class='title'>第xxx期互联网人才交流招聘会</text>
+      <text class='status'>进行中</text>
+    </view>
+     <view class='last_layer'>
+      <view class='count'>
+        <text>参会职位数：</text>
+        <text class='ocpCount'>245</text>
+        <text>参会公司数：</text>
+        <text class='cpyCount'>54</text>
+      </view>
+      <view class='date'>10月23日.周二</view>
+    </view>
+  </view>
+  <view bindtap='wpInfo' class='fairBox'>
+    <image src='../../assets/home/fairImg.png'></image>
+    <view class='middle_layer'>
+      <text class='title'>第xxx期互联网人才交流招聘会</text>
+      <text class='status'>进行中</text>
+    </view>
+     <view class='last_layer'>
+      <view class='count'>
+        <text>参会职位数：</text>
+        <text class='ocpCount'>245</text>
+        <text>参会公司数：</text>
+        <text class='cpyCount'>54</text>
+      </view>
+      <view class='date'>10月23日.周二</view>
+    </view>
+  </view>
+  <view bindtap='wpInfo' class='fairBox'>
+    <image src='../../assets/home/fairImg.png'></image>
+    <view class='middle_layer'>
+      <text class='title'>第xxx期互联网人才交流招聘会</text>
+      <text class='status'>进行中</text>
+    </view>
+     <view class='last_layer'>
+      <view class='count'>
+        <text>参会职位数：</text>
+        <text class='ocpCount'>245</text>
+        <text>参会公司数：</text>
+        <text class='cpyCount'>54</text>
+      </view>
+      <view class='date'>10月23日.周二</view>
+    </view>
+  </view>
+  <view bindtap='wpInfo' class='fairBox'>
+    <image src='../../assets/home/fairImg.png'></image>
+    <view class='middle_layer'>
+      <text class='title'>第xxx期互联网人才交流招聘会</text>
+      <text class='status'>进行中</text>
+    </view>
+     <view class='last_layer'>
+      <view class='count'>
+        <text>参会职位数：</text>
+        <text class='ocpCount'>245</text>
+        <text>参会公司数：</text>
+        <text class='cpyCount'>54</text>
+      </view>
+      <view class='date'>10月23日.周二</view>
+    </view>
+  </view>
+  <view bindtap='wpInfo' class='fairBox'>
+    <image src='../../assets/home/fairImg.png'></image>
+    <view class='middle_layer'>
+      <text class='title'>第xxx期互联网人才交流招聘会</text>
+      <text class='status'>进行中</text>
+    </view>
+     <view class='last_layer'>
+      <view class='count'>
+        <text>参会职位数：</text>
+        <text class='ocpCount'>245</text>
+        <text>参会公司数：</text>
+        <text class='cpyCount'>54</text>
+      </view>
+      <view class='date'>10月23日.周二</view>
+    </view>
+  </view>
+</view>
+
+

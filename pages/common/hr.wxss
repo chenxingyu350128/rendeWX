@@ -1,0 +1,56 @@
+/* pages/common/hr.wxss */
+page{
+  background: #f7f7f7;
+}
+.hrBox{
+  margin: 10rpx 0;
+  padding: 16rpx 42rpx 27rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  /* align-items: center; */
+}
+.bounty{
+  font-size: 22rpx;
+  margin-bottom: 14rpx
+}
+.bounty .fill{
+  font-size: 30rpx;
+  color: #3385ff;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.bounty text text{
+  font-size: 30rpx;
+  color: #3385ff;
+}
+.apply {
+  font-size: 22rpx;
+  line-height: 48rpx;
+  padding: 0 25rpx;
+  background: #3385ff;
+  color: #fff;
+  border-radius: 4rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ocp{
+  font-size: 26rpx;
+}
+.ocp .salary{
+  font-size: 26rpx;
+  color: #3385ff;
+  margin-left: 33rpx;
+}
+.demand{
+  padding: 28rpx 0 30rpx;
+  font-size: 22rpx;
+  color: #6b6b6b;
+}
+.company{
+  font-size: 22rpx;
+}

@@ -1,0 +1,124 @@
+/* pages/collectionPosition/collectionPosition.wxss */
+page{
+  background: #f7f7f7;
+}
+.nav_tab {
+  width: 100%;
+  display: flex;
+  background: #fff;
+  flex-direction: row;
+}
+.nav_tab view{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_tab view:nth-of-type(1){
+  justify-content: flex-start;
+  margin-left: 41rpx;
+}
+.nav_tab view:nth-of-type(3){
+  justify-content: flex-end;
+  margin-right: 41rpx;
+}
+.nav_tab text{
+  font-size: 0.75em;
+  padding-top: 10rpx;
+  padding-bottom: 7rpx;
+}
+.common{
+  color:#909090;
+}
+.active{
+  color:#000;
+  border-bottom: 4rpx solid #3385ff;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  
+  margin-top: 10rpx;
+  background: #fff;
+}
+.enterpriseImg{
+  width: 92rpx;
+  height: 92rpx;
+}
+.info-left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.info-left-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 22rpx;
+}
+.info-postion{
+  font-size: 0.8em;
+}
+.info-demand{
+  margin-top: 36rpx;
+  color: #909090;
+  font-size: 0.7em;
+}
+.info-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+.price{
+  font-size: 0.8em;
+  color: #3385ff;
+}
+.time{
+  font-size: 0.6em;
+  margin-top: 17rpx;
+}
+.touch-item {
+  display: flex;
+  width: 100%;
+  overflow: hidden
+}
+.content {
+  width: 100%;
+  margin-right:0;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transform: translateX(138rpx);
+  transform: translateX(138rpx);
+  margin-left: -138rpx;
+  display: flex;
+  flex-direction: row;
+  padding: 27rpx 50rpx 26rpx 32rpx;
+  justify-content: space-between;
+}
+.del {
+  background-color: #c53737;
+  width: 138rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  -webkit-transform: translateX(138rpx);
+  transform: translateX(138rpx);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  font-size: 0.8em;
+}
+.touch-move-active .content,
+.touch-move-active .del {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.abate{
+  width: 85rpx;
+  height: 64rpx;
+  position: absolute;
+  top:10rpx;
+  right: 45rpx;
+}

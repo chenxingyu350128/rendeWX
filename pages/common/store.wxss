@@ -1,0 +1,131 @@
+/* pages/common/store.wxss */
+@import '/utils/boxTitle.wxss';
+@import '/utils/swiper';
+page{
+  background: #f7f7f7;
+}
+.swiperShell{
+  width: 690rpx;
+  height: 288rpx;
+  padding:14px 30rpx;
+  background: #fff;
+}
+swiper-item image{
+  width: 100%;
+  height: 100%;
+  border-radius:20rpx;
+}
+.have{
+  width: 690rpx;
+  padding:14px 30rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+.have>view{
+  flex: 1;
+  text-align: center;
+  font-size: 20rpx;
+  color: #808081;
+}
+.score{
+  border-right: 1px solid rgb(235, 235, 235);
+  display: flex;
+  flex-direction: column;
+}
+.score_last text{
+  font-size: 30rpx;
+  color: #71AAFF;
+}
+.score image{
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 14rpx;
+}
+.exchange{
+  display: flex;
+  flex-direction: column;
+}
+.exchange image{
+  height: 28rpx;
+  width: 28rpx;
+}
+.have text{
+  margin-top: 15rpx;
+}
+.box_title{
+  padding: 28rpx 0 20rpx 30rpx;
+  border-bottom: 1px solid #f7f7f7;
+  background: #fff;
+}
+.box_title text{
+  padding-left: 14rpx;
+  line-height: 30rpx;
+  font-size: 27rpx;
+  font-weight: 600;
+  border-left: 2px solid #3385FF;
+}
+.navBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26rpx;
+  line-height: 60rpx;
+  padding: 0 50rpx;
+  background: #fff;
+}
+.navBox view{
+  text-align: center;
+}
+.navBox image{
+  width: 21rpx;
+  height: 11rpx;
+  margin-left: 9rpx;
+}
+.goodsArea{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 30rpx 20rpx;
+}
+.goodsShell{
+  box-sizing: border-box;
+  width: 50%;
+  border:1px solid #e3e7ed;
+  padding:16rpx;
+  background: #fff;
+  margin-left:-1px;
+  margin-bottom:-1px;
+}
+.goods{
+  margin: .18rpx;
+  margin-left: -1px;
+}
+.goods image{
+  width: 100%;
+  height: 253rpx;
+  border: 1px solid #e3e7ed;
+}
+.goodsName{
+  font-size: 26rpx;
+  font-weight: 600;
+  margin: 20rpx 0;
+}
+.spendScore{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20rpx;
+}
+.spendScore .scoreNeed{
+  font-size: 26rpx;
+  color: #3385ff;
+}
+.spendScore .exchange{
+  font-size: 22rpx;
+  color: #fff;
+  background: #3385ff;
+  line-height: 34rpx;
+  padding: 0 28rpx;
+  border-radius: 4rpx;
+}

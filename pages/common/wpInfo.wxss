@@ -1,0 +1,76 @@
+/* pages/common/wpInfo.wxss */
+@import '/utils/boxTitle';
+@import '/utils/swiper';
+page{
+  background:#f7f7f7;
+}
+scroll-view{
+    width:100vw;
+    height: 150rpx;
+    /*white-space 不能丢  */
+    white-space: nowrap;
+    margin-bottom: 39rpx;
+}
+scroll-view view{
+  width: 283rpx;
+  height:100%;
+  margin-left: 10rpx;
+  box-sizing: border-box;
+  display: inline-block;
+  background: paleturquoise;
+  border-radius: 15rpx;
+  overflow: hidden;
+}
+scroll-view view image{
+  width: 100%;
+  height: 100%;
+}
+.bellow{
+  background: #fff;
+}
+.box_title{
+  padding: 28rpx 0 20rpx 30rpx;
+}
+.box_title text{
+  padding-left: 14rpx;
+  font-size: 27rpx;
+  line-height: 30rpx;
+  font-weight: 600;
+  border-left: 2px solid #3385FF;
+}
+.AList{
+  padding: 0 30rpx 20rpx;
+}
+.article{
+  padding: 22rpx 40rpx 20rpx 10rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+.article .left{
+  text-align: center;
+  margin-right: 29rpx;
+}
+.article .left image{
+  width: 23rpx;
+  height: 15rpx;
+}
+.article .left view{
+  font-size: 18rpx;
+  color: #418DFF;
+}
+.right .title{
+  font-size: 26rpx;
+  font-weight: 600;
+}
+.right .desc{
+  width: 27em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 22rpx;
+  padding: 24rpx 0 28rpx;
+  overflow: hidden;
+}
+.right .releaseAt{
+  font-size: 18rpx;
+}

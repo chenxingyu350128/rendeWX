@@ -1,0 +1,68 @@
+/* pages/common/general.wxss */
+page{
+  background: #f7f7f7;
+}
+.opt{
+  padding: 0 55rpx;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  margin-bottom: 1px;
+  align-items: center;
+
+}
+.opt .title{
+  font-size: 26rpx;
+  margin-right: 11rpx;
+}
+.opt picker{
+  display: inline-block;
+  height: 60rpx;
+  line-height: 60rpx;
+  /* display: flex;
+  align-items: center; */
+}
+.opt image{
+  width: 19rpx;
+  height: 10rpx;
+}
+.huntBox{
+  position: relative;
+  background: #fff;
+  padding: 17rpx 34rpx 29rpx 31rpx;
+  margin-bottom: 10rpx;
+}
+.intro{
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  color: #909090;
+  padding: 34rpx 0 28rpx;
+}
+.intro image{
+  width: 22rpx;
+  height: 25rpx;
+  margin-right: 20rpx;
+}
+.desc{
+  font-size: 26rpx;
+  color: #909090;
+  margin-top: 29rpx;
+}
+.borderOnly{
+  width: 636rpx;
+  height: 2rpx;
+  margin: 0 auto;
+  background: #e3e3e3;
+}
+.date{
+  position: absolute;
+  right: 34rpx;
+  top: 28rpx;
+  font-size: 20rpx;
+}
+.huntFor{
+  font-size: 30rpx;
+  font-weight: 600;
+}
+

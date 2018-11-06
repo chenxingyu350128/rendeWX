@@ -1,0 +1,70 @@
+<!--pages/collectedResumes/collectedResumes.wxml-->
+<!-- tab框  -->
+<view class="nav_title">
+  <view class="nav_tab">
+    <view wx:for="{{list}}" wx:key="index" data-index='{{index}}' bindtap="selected">
+      <text class="{{selected==index?'active':'common'}}">{{item}}</text>
+    </view>
+  </view>
+  <!-- tab框显示内容 -->
+  <!-- 最新 -->
+  <view wx:if="{{selected == 0}}">
+    <view class='info-wrap'>
+      <view class='info' wx:for="{{newList}}" bindtap='click1' data-index="{{index}}" wx:if="{{item.state==0}}">     
+        <view class="content">
+          <view class="content1">
+            <view class='content-top'>
+              <view class='content-top-left'><text>投递职位：</text><text class='blue blue1'>{{item.position}}</text></view>
+              <view class='content-top-right'><text>期望薪资：</text><view class='blue'><text>{{item.price}}</text><text class='symbol'>¥</text></view></view>
+            </view>
+            <view class="content2">
+              <view class='info-left'>
+                <image class="headSculptureImg" src='{{item.headSculptureImg}}'></image>
+                <view class='info-left-text'>
+                  <text class='info-postion'>{{item.name}}</text>
+                  <text class='info-demand'>{{item.demand1}}丨{{item.demand2}}</text>
+                </view>
+              </view>
+              <view class='info-right'>
+                <text class='time'>{{item.time}}</text>
+                <view class='ms-btn' catchtap='click3' data-index='{{index}}'>邀请面试</view>
+              </view>
+            </view>
+          </view>
+          <view class='{{item.click?"border1":"border2"}}'></view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 邀请面试 -->
+  <view wx:if="{{selected == 1}}">
+    <view class='info-wrap'>
+      <view class='info' wx:for="{{newList}}" bindtap='click2' data-index="{{index}}" wx:if="{{item.state==1}}">     
+        <view class="content">
+          <view class="content1">
+            <view class='content-top'>
+              <view class='content-top-left'><text>投递职位：</text><text class='blue blue1'>{{item.position}}</text></view>
+              <view class='content-top-right'><text>期望薪资：</text><view class='blue'><text>{{item.price}}</text><text class='symbol'>¥</text></view></view>
+            </view>
+            <view class="content2">
+              <view class='info-left'>
+                <image class="headSculptureImg" src='{{item.headSculptureImg}}'></image>
+                <view class='info-left-text'>
+                  <text class='info-postion'>{{item.name}}</text>
+                  <text class='info-demand'>{{item.demand1}}丨{{item.demand2}}</text>
+                </view>
+              </view>
+              <view class='info-right'>
+                <text class='time'>{{item.time}}</text>
+                <view class='{{item.isChecked?"ms-btn1":"ms-btn"}}' catchtap='click4' data-index='{{index}}'>完成面试</view>
+              </view>
+            </view>
+          </view>
+          <view class='{{item.click?"border1":"border2"}}'></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+

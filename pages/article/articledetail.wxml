@@ -1,0 +1,14 @@
+<!--pages/article/articledetail.wxml-->
+<!-- 文章详情 -->
+<view class='article'>
+   <view class='article-title'>文章标题</view>
+   <view class='article-from'>
+     <view class='article-name'>来自：xxx</view>
+     <view class='article-time'>2018.8.30</view>
+   </view>
+   <view class='preface'>
+      文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+   </view>
+   <image src='/assets/article/article.jpg' class='article-img'></image>
+   <view class='preface'>文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容</view>
+</view>

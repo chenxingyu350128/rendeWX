@@ -1,0 +1,79 @@
+/* pages/common/proxy.wxss */
+page{
+  background: #f7f7f7;
+}
+.cardShell{
+   padding: 28rpx 30rpx 30rpx;
+}
+.card{
+  display: flex;
+  align-items: center;
+  border-radius: 10rpx;
+  background: #fff;
+  margin-bottom: 22rpx;
+}
+.left{
+  height: 307rpx;
+  width: 1em;
+  font-size: 24rpx;
+  font-weight: 600;
+  color: #fff;
+  padding: 0 29rpx;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  border-radius: 10rpx;
+  writing-mode: vertical-rl;
+}
+/* .left text{
+  writing-mode: vertical-rl;
+} */
+.right{
+  font-size: 22rpx;
+  color: #636363;
+  line-height: 37rpx;
+  padding: 13rpx 28rpx 14rpx 13rpx;
+}
+.card1,
+.leftSide{
+  background: -webkit-linear-gradient(#25c4be,#01c1dc); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#25c4be,#01c1dc); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#25c4be,#01c1dc); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#25c4be,#01c1dc); /* 标准的语法 */
+}
+.card2,
+.rightSide{
+  background: -webkit-linear-gradient(#3d65dd,#2a94e6); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#3d65dd,#2a94e6); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#3d65dd,#2a94e6); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#3d65dd,#2a94e6); /* 标准的语法 */
+}
+.card3{
+  background: -webkit-linear-gradient(#725ae3,#b73be6); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#725ae3,#b73be6); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#725ae3,#b73be6); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#725ae3,#b73be6); /* 标准的语法 */
+}
+.contact{
+  display: flex;
+  align-items: center;
+  line-height: 96rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #fff;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.contact>view{
+  flex: 1;
+}
+.leftSide image{
+  width: 18rpx;
+  height: 25rpx;
+  margin-right: 39rpx;
+}
+.rightSide image{
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 6rpx;
+}

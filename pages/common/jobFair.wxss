@@ -1,0 +1,40 @@
+/* pages/common/jobFair.wxss */
+page{
+  background: #f7f7f7;
+  padding: 0 30rpx;
+}
+.fairShell{
+  width: 690rpx;
+  padding-bottom: 30rpx;
+}
+.fairBox{
+  padding: 16rpx 18rpx 25rpx 19rpx;
+  margin: 12rpx 0;
+  background: #fff;
+  border-radius: 10rpx;
+}
+.fairBox>image{
+  width: 653rpx;
+  height: 223rpx;
+}
+.fairBox>view{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle_layer{
+  margin: 26rpx 0 33rpx;
+  font-size: 26rpx;
+}
+.last_layer{
+  font-size: 22rpx;
+}
+.status,
+.compCount,
+.ocpCount{
+  color: #3385FF;
+  margin-right: 22rpx;
+}
+.date{
+  font-size: 18rpx;
+}

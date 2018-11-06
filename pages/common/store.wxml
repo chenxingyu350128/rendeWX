@@ -1,0 +1,95 @@
+<!--pages/common/store.wxml-->
+<view class='swiperShell'>
+  <swiper indicator-dots='true'>
+    <swiper-item bindtap='WPInfo'>
+      <image  src='../../assets/home/lbt.png'></image>
+    </swiper-item>
+    <swiper-item bindtap='WPInfo'>
+      <image  src='../../assets/home/lbt.png'></image>
+    </swiper-item>
+    <swiper-item bindtap='WPInfo'>
+      <image  src='../../assets/home/lbt.png'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class='have'>
+  <view class='score'>
+    <view class='score_last'>
+      <image src='../../assets/home/score_icon.png'></image> <text>999</text>
+    </view>
+    <text>我的积分</text>
+  </view>
+  <view bindtap='myExchange' class='exchange'>
+    <view class='score_last'>
+      <image src='../../assets/home/exchange_icon.png'></image>
+    </view>
+    <text>我的兑换</text>
+  </view>
+</view>
+<view class='goodsBox'>
+  <view class='boxTitle'>
+    <view class='stick'></view>
+    <text>积分商品</text>
+  </view>
+  <view class='navBox'>
+    <view>全部</view>
+    <view>分类 
+      <image src='../../assets/home/arrowDown.png'></image> 
+    </view>
+    <view>全部 
+      <image src='../../assets/home/arrowDown.png'></image>
+    </view>
+  </view>
+  <view class='goodsArea'>
+    <view bindtap='detail' class='goodsShell'>
+     <view class='goods'>
+      <image src='../../assets/home/goods.png'></image>
+      <view class='goodsName'>小米电热水器</view>
+      <view class='spendScore'>
+        <view>
+          <text class='scoreNeed'>19990</text>个积分
+        </view>
+        <text class='exchange'>兑换</text>
+      </view>
+     </view>
+    </view>
+    <view bindtap='detail' class='goodsShell'>
+     <view class='goods'>
+      <image src='../../assets/home/goods.png'></image>
+      <view class='goodsName'>小米电热水器</view>
+      <view class='spendScore'>
+
+        <view>
+          <text class='scoreNeed'>19990</text>个积分
+        </view>
+        <text class='exchange'>兑换</text>
+      </view>
+     </view>
+    </view>
+    <view bindtap='detail' class='goodsShell'>
+     <view class='goods'>
+      <image src='../../assets/home/goods.png'></image>
+      <view class='goodsName'>小米电热水器</view>
+      <view class='spendScore'>
+        <view>
+          <text class='scoreNeed'>19990</text>个积分
+        </view>
+        <text class='exchange'>兑换</text>
+      </view>
+     </view>
+    </view>
+    <view bindtap='detail' class='goodsShell'>
+     <view class='goods'>
+      <image src='../../assets/home/goods.png'></image>
+      <view class='goodsName'>小米电热水器</view>
+      <view class='spendScore'>
+
+        <view>
+          <text class='scoreNeed'>19990</text>个积分
+        </view>
+        <text class='exchange'>兑换</text>
+      </view>
+     </view>
+    </view>
+  </view>
+</view>

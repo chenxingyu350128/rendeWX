@@ -1,0 +1,181 @@
+<!--pages/common/hr.wxml-->
+<view bindtap='ocpDetail' class='hrBox'>
+  <view class='left'>
+    <view class='ocp'>
+      <text>福建省区经理</text><text class='salary'>￥12.00-18.00万</text>
+    </view>
+    <view class='demand'>
+      <text space='nbsp'>福州 | 5年经验 | 大专学历</text>
+    </view>
+    <view class='company'>xxxx有限公司</view>
+  </view>
+  <view class='right'>
+    <view class='bounty'>
+        <text space='emsp'>赏金：￥</text>
+        <text class='fill'>1500</text>
+    </view>
+    <view class='apply'>立即申请</view>
+  </view>
+</view>
+<view bindtap='ocpDetail' class='hrBox'>
+  <view class='left'>
+    <view class='ocp'>
+      <text>福建省区经理</text><text class='salary'>￥12.00-18.00万</text>
+    </view>
+    <view class='demand'>
+      <text space='nbsp'>福州 | 5年经验 | 大专学历</text>
+    </view>
+    <view class='company'>xxxx有限公司</view>
+  </view>
+  <view class='right'>
+    <view class='bounty'>
+        <text space='emsp'>赏金：￥</text>
+        <text class='fill'>1500</text>
+    </view>
+    <view class='apply'>立即申请</view>
+  </view>
+</view>
+<view bindtap='ocpDetail' class='hrBox'>
+  <view class='left'>
+    <view class='ocp'>
+      <text>福建省区经理</text><text class='salary'>￥12.00-18.00万</text>
+    </view>
+    <view class='demand'>
+      <text space='nbsp'>福州 | 5年经验 | 大专学历</text>
+    </view>
+    <view class='company'>xxxx有限公司</view>
+  </view>
+  <view class='right'>
+    <view class='bounty'>
+        <text space='emsp'>赏金：￥</text>
+        <text class='fill'>1500</text>
+    </view>
+    <view class='apply'>立即申请</view>
+  </view>
+</view>
+<view bindtap='ocpDetail' class='hrBox'>
+  <view class='left'>
+    <view class='ocp'>
+      <text>福建省区经理</text><text class='salary'>￥12.00-18.00万</text>
+    </view>
+    <view class='demand'>
+      <text space='nbsp'>福州 | 5年经验 | 大专学历</text>
+    </view>
+    <view class='company'>xxxx有限公司</view>
+  </view>
+  <view class='right'>
+    <view class='bounty'>
+        <text space='emsp'>赏金：￥</text>
+        <text class='fill'>1500</text>
+    </view>
+    <view class='apply'>立即申请</view>
+  </view>
+</view>
+<view bindtap='ocpDetail' class='hrBox'>
+  <view class='left'>
+    <view class='ocp'>
+      <text>福建省区经理</text><text class='salary'>￥12.00-18.00万</text>
+    </view>
+    <view class='demand'>
+      <text space='nbsp'>福州 | 5年经验 | 大专学历</text>
+    </view>
+    <view class='company'>xxxx有限公司</view>
+  </view>
+  <view class='right'>
+    <view class='bounty'>
+        <text space='emsp'>赏金：￥</text>
+        <text class='fill'>1500</text>
+    </view>
+    <view class='apply'>立即申请</view>
+  </view>
+</view>
+<view bindtap='ocpDetail' class='hrBox'>
+  <view class='left'>
+    <view class='ocp'>
+      <text>福建省区经理</text><text class='salary'>￥12.00-18.00万</text>
+    </view>
+    <view class='demand'>
+      <text space='nbsp'>福州 | 5年经验 | 大专学历</text>
+    </view>
+    <view class='company'>xxxx有限公司</view>
+  </view>
+  <view class='right'>
+    <view class='bounty'>
+        <text space='emsp'>赏金：￥</text>
+        <text class='fill'>1500</text>
+    </view>
+    <view class='apply'>立即申请</view>
+  </view>
+</view>
+<view bindtap='ocpDetail' class='hrBox'>
+  <view class='left'>
+    <view class='ocp'>
+      <text>福建省区经理</text><text class='salary'>￥12.00-18.00万</text>
+    </view>
+    <view class='demand'>
+      <text space='nbsp'>福州 | 5年经验 | 大专学历</text>
+    </view>
+    <view class='company'>xxxx有限公司</view>
+  </view>
+  <view class='right'>
+    <view class='bounty'>
+        <text space='emsp'>赏金：￥</text>
+        <text class='fill'>1500</text>
+    </view>
+    <view class='apply'>立即申请</view>
+  </view>
+</view>
+<view bindtap='ocpDetail' class='hrBox'>
+  <view class='left'>
+    <view class='ocp'>
+      <text>福建省区经理</text><text class='salary'>￥12.00-18.00万</text>
+    </view>
+    <view class='demand'>
+      <text space='nbsp'>福州 | 5年经验 | 大专学历</text>
+    </view>
+    <view class='company'>xxxx有限公司</view>
+  </view>
+  <view class='right'>
+    <view class='bounty'>
+        <text space='emsp'>赏金：￥</text>
+        <text class='fill'>1500</text>
+    </view>
+    <view class='apply'>立即申请</view>
+  </view>
+</view>
+<view bindtap='ocpDetail' class='hrBox'>
+  <view class='left'>
+    <view class='ocp'>
+      <text>福建省区经理</text><text class='salary'>￥12.00-18.00万</text>
+    </view>
+    <view class='demand'>
+      <text space='nbsp'>福州 | 5年经验 | 大专学历</text>
+    </view>
+    <view class='company'>xxxx有限公司</view>
+  </view>
+  <view class='right'>
+    <view class='bounty'>
+        <text space='emsp'>赏金：￥</text>
+        <text class='fill'>1500</text>
+    </view>
+    <view class='apply'>立即申请</view>
+  </view>
+</view>
+<view bindtap='ocpDetail' class='hrBox'>
+  <view class='left'>
+    <view class='ocp'>
+      <text>福建省区经理</text><text class='salary'>￥12.00-18.00万</text>
+    </view>
+    <view class='demand'>
+      <text space='nbsp'>福州 | 5年经验 | 大专学历</text>
+    </view>
+    <view class='company'>xxxx有限公司</view>
+  </view>
+  <view class='right'>
+    <view class='bounty'>
+        <text space='emsp'>赏金：￥</text>
+        <text class='fill'>1500</text>
+    </view>
+    <view class='apply'>立即申请</view>
+  </view>
+</view>

@@ -1,0 +1,38 @@
+<!--pages/common/proxy.wxml-->
+<view class='cardShell'>
+  <view class='card'>
+    <view class='left  card1'>
+    <text> 人才外包服务套餐</text>
+    </view>
+    <view class='right'>
+      <text>    通过我们仁德直聘专业和资深的招聘团队，我们为企业客户您定制个性化的招聘方案；用我们仁德直聘先进的网络信息招聘系统，并结合各大同行业的网络招聘系统，互相筛选，迅速为企业客户做出合理有效的招聘决策，提升招聘质量，迅速找出合适的人才为企业发展助力。</text>
+    </view>
+  </view>
+  <view class='card'>
+    <view class='left  card2'>
+      <text>人力资源管理外包服务套餐</text>
+    </view>
+    <view class='right'>
+      <text>    通过我们仁德直聘专业和资深的招聘团队，我们为企业客户您定制个性化的招聘方案；用我们仁德直聘先进的网络信息招聘系统，并结合各大同行业的网络招聘系统，互相筛选，迅速为企业客户做出合理有效的招聘决策，提升招聘质量，迅速找出合适的人才为企业发展助力。</text>
+    </view>
+  </view>
+  <view class='card'>
+    <view class='left  card3'>
+      <text> 人才、劳务派遣服务套餐</text>
+    </view>
+    <view class='right'>
+      <text>    通过我们仁德直聘专业和资深的招聘团队，我们为企业客户您定制个性化的招聘方案；用我们仁德直聘先进的网络信息招聘系统，并结合各  大同行业的网络招聘系统，互相筛选，迅速为企业客户做出合理有效的招聘决策，提升招聘质量，迅速找出合适的人才为企业发展助力。</text>
+    </view>
+  </view>
+  <view class='contact'>
+    <view class='leftSide'>
+      <image src='../../assets/home/proxy_01.png'></image>
+      <text class='number'>400-832-0088</text>
+    </view>
+    <view class='rightSide'>
+      <image src='../../assets/home/proxy_02.png'></image>
+      <text class='number'>QQ: 2930987188</text>
+    </view>
+  </view>
+</view>
+

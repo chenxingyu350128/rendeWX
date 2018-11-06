@@ -1,0 +1,81 @@
+<!--pages/common/wpInfo.wxml-->
+<view class='above'>
+  <view class='swiperShell'>
+    <swiper>
+      <swiper-item bindtap='detail'>
+        <image src='../../assets/home/wpInfo_L.png'></image>
+      </swiper-item>
+       <swiper-item bindtap='detail'>
+        <image src='../../assets/home/wpInfo_L.png'></image>
+      </swiper-item>
+       <swiper-item bindtap='detail'>
+        <image src='../../assets/home/wpInfo_L.png'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class='banner_s'>
+    <scroll-view scroll-x='true' style='width: 100%'>
+      <view bindtap='detail'>
+        <image mode='' src='../../assets/home/wpInfo_s_1.png'></image>
+      </view>
+      <view bindtap='detail'>
+        <image mode='' src='../../assets/home/wpInfo_s_2.png'></image>
+      </view>
+      <view bindtap='detail'>
+        <image mode='' src='../../assets/home/wpInfo_s_3.png'></image>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+<view class='bellow'>
+  <view class='boxTitle'>
+    <view class='stick'></view>
+    <text>推荐文章</text>
+  </view>
+  <view class='AList'>
+    <view bindtap='detail' class='article'>
+      <view class='left'>
+        <image mode='aspectFit' src='../../assets/home/view_icon.png'></image>
+        <view>2K</view>
+      </view>
+      <view class='right'>
+        <view class='title'>有意思的文章标题</view>
+        <view class='desc'>失业保险的缴费基数如何确定？那些人可以领取失业保证金？我也不知道</view>
+        <view class='releaseAt'>2018-08-26</view>
+      </view>
+    </view>
+    <view bindtap='detail' class='article'>
+      <view class='left'>
+        <image mode='aspectFit' src='../../assets/home/view_icon.png'></image>
+        <view>2K</view>
+      </view>
+      <view class='right'>
+        <view class='title'>有意思的文章标题</view>
+        <view class='desc'>失业保险的缴费基数如何确定？那些人可以领取失业保证金？我也不知道</view>
+        <view class='releaseAt'>2018-08-26</view>
+      </view>
+    </view>
+    <view bindtap='detail' class='article'>
+      <view class='left'>
+        <image mode='aspectFit' src='../../assets/home/view_icon.png'></image>
+        <view>2K</view>
+      </view>
+      <view class='right'>
+        <view class='title'>有意思的文章标题</view>
+        <view class='desc'>失业保险的缴费基数如何确定？那些人可以领取失业保证金？我也不知道</view>
+        <view class='releaseAt'>2018-08-26</view>
+      </view>
+    </view> 
+    <view bindtap='detail' class='article'>
+      <view class='left'>
+        <image mode='aspectFit' src='../../assets/home/view_icon.png'></image>
+        <view>2K</view>
+      </view>
+      <view class='right'>
+        <view class='title'>有意思的文章标题</view>
+        <view class='desc'>失业保险的缴费基数如何确定？那些人可以领取失业保证金？我也不知道</view>
+        <view class='releaseAt'>2018-08-26</view>
+      </view>
+    </view>
+  </view>
+</view>

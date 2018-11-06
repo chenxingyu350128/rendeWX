@@ -1,0 +1,7 @@
+<!--pages/aboutUs/aboutUs.wxml-->
+<view class='wrap'>
+  <view class='row' wx:for="{{usInfoList}}">
+    <image src="{{item.img}}"></image>
+    <text>{{item.text}}</text>
+  </view>
+</view>

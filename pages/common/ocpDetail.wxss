@@ -1,0 +1,185 @@
+/* pages/common/ocpDetail.wxss */
+@import '/utils/ocpBox.wxss';
+@import '/utils/boxTitle.wxss';
+page{
+  background: #f7f7f7;
+}
+page>view{
+  background: #fff;
+  margin-bottom: 10rpx;
+}
+.ocp{
+  margin: 0;
+}
+.welfare{
+  display: flex;
+  margin-top: 32rpx;
+}
+.welfare text{
+  font-size: 20rpx;
+  color: #3E3E3E;
+  /* line-height: 37rpx; */
+  padding: 0 25rpx;
+  background: #fff;
+  margin-right: 16rpx;
+  border-radius: 19rpx;
+  border: 1px solid #3385FF;
+}
+.stickShell{
+  background: #fff;
+}
+.stickShell .stick{
+  width: 616rpx;
+  margin: 0 auto;
+  height: 1rpx;
+  border-top: 1px solid #f7f7f7;
+}
+.company{
+  padding: 28rpx 30rpx 25rpx 31rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 10rpx;
+}
+.company>image{
+  width: 19rpx;
+  height: 34rpx;
+}
+.company .left{
+  display: flex;
+  align-items: center;
+}
+.company .left image{
+  width: 67rpx;
+  height: 67rpx;
+  margin-right: 15rpx;
+}
+.company .companyName{
+  font-size: 26rpx;
+  color: #000;
+  font-weight: 600;
+}
+.company .address{
+  margin-top: 19rpx;
+  font-size: 24rpx;
+  color: #525252;
+}
+.desc .describe,
+.ocpDemand .demands {
+  padding: 0 46rpx 40rpx 45rpx;
+  font-size: 22rpx;
+  line-height:40rpx;
+}
+.workplace .map{
+  padding: 0 30rpx 16rpx;
+}
+.othersShell{
+  padding: 0 30rpx;
+}
+.others{
+  padding: 30rpx 0 36rpx;
+   border-top: 1px solid rgb(235, 235, 235);
+}
+.others>view{
+  display: flex;
+  justify-content: space-between;
+}
+.others .occupation{
+  font-size: 30rpx;
+  margin-bottom: 36rpx;
+}
+.others .salary{
+  margin-bottom:44rpx;
+  font-size:30rpx;
+  color:#3385FF;
+}
+.others .name{
+  font-size: 26rpx;
+  color: #535353;
+}
+.footerShell{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding-top: 18rpx;
+  padding-bottom: 18rpx;
+  margin: 0;
+  /* border-top: 11rpx solid #f7f7f7; */
+  background: #fff;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+}
+.collect{
+  width: 236rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 61rpx;
+  color: #3385FF;
+  border-radius: 31rpx;
+  border: 1px solid #3385FF;
+  line-height: 61rpx;
+  margin-left: 30rpx;
+}
+cover-image{
+  margin-right: 24rpx;
+  width: 26rpx;
+  height: 25rpx;
+}
+.footer .Do{
+  /* flex: 1; */
+  /* margin-left: 28rpx; */
+  width: 55%;
+  height: 61rpx;
+  line-height: 61rpx;
+  /* font-size: 26rpx; */
+  color: #fff;
+  background: #3385FF;
+  border-radius: 31rpx;
+  text-align: center;
+  margin-right: 30rpx;
+  border: 2rpx solid #3385FF;
+}
+.shadow{
+  height: 90rpx;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  box-shadow:  0rpx -4rpx 20rpx #807c7c;
+}
+.revise{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.revise-text{
+  width: 55%;
+  height: 61rpx;
+  line-height: 61rpx;
+  font-size: 26rpx;
+  color: #fff;
+  background: #3385FF;
+  text-align: center;
+  border-radius: 31rpx;
+}
+.block{
+  height: 98rpx;
+  width: 100%;
+}
+.gray{
+  width: 55%;
+  height: 61rpx;
+  line-height: 61rpx;
+  font-size: 26rpx;
+  background: #fff;
+  border-radius: 31rpx;
+  text-align: center;
+  margin-right: 30rpx;
+  border: 2rpx solid #817d7d;
+  color: #817d7d;
+}

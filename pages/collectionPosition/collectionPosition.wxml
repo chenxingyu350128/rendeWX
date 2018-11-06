@@ -1,0 +1,74 @@
+<!--pages/collectionPosition/collectionPosition.wxml-->
+<!-- tab框  -->
+<view class="nav_title">
+  <view class="nav_tab">
+    <view wx:for="{{list}}" wx:key="index" data-index='{{index}}' bindtap="selected">
+      <text class="{{selected==index?'active':'common'}}">{{item}}</text>
+    </view>
+  </view>
+  <!-- tab框显示内容 -->
+  <!-- 全部-->
+  <view wx:if="{{selected == 0}}">
+    <view class='info touch-item {{item.isTouchMove ? "touch-move-active" : ""}}' wx:for="{{positionList}}" bindtap='toDetail' data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove"  wx:key="">
+      <view class="content">
+        <view class='info-left'>
+          <image class="enterpriseImg" src='{{item.enterpriseImg}}'></image>
+          <view class='info-left-text'>
+            <text class='info-postion'>{{item.postion}}</text>
+            <text class='info-demand'>{{item.demand1}}丨{{item.demand2}}丨{{item.demand3}}</text>
+          </view>
+        </view>
+        <view class='info-right'>
+          <image wx:if="{{item.abate}}" class="abate" src='../../assets/collectionPosition/abate.png' mode=""></image>
+          <text class='price'>{{item.price}}</text>
+          <text class='time'>{{item.time}}</text>
+        </view>
+      </view>
+      <view class="del" catchtap="del" data-index="{{index}}">删除</view>
+    </view>
+  </view>
+
+  <!-- 最新 -->
+  <view wx:if="{{selected == 1}}">
+    <view class='info touch-item {{item.isTouchMove ? "touch-move-active" : ""}}' wx:for="{{positionList}}" bindtap='toDetail' data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove"  wx:key="" wx:if="{{!item.abate}}">
+      <view class="content">
+        <view class='info-left'>
+          <image class="enterpriseImg" src='{{item.enterpriseImg}}'></image>
+          <view class='info-left-text'>
+            <text class='info-postion'>{{item.postion}}</text>
+            <text class='info-demand'>{{item.demand1}}丨{{item.demand2}}丨{{item.demand3}}</text>
+          </view>
+        </view>
+        <view class='info-right'>
+          <image wx:if="{{item.abate}}" class="abate" src='../../assets/collectionPosition/abate.png' mode=""></image>
+          <text class='price'>{{item.price}}</text>
+          <text class='time'>{{item.time}}</text>
+        </view>
+      </view>
+      <view class="del" catchtap="del" data-index="{{index}}">删除</view>
+    </view>
+  </view>
+
+
+
+  <!-- 失效 -->
+  <view wx:if="{{selected == 2}}">
+    <view class='info touch-item {{item.isTouchMove ? "touch-move-active" : ""}}' wx:for="{{positionList}}" bindtap='toDetail' data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove"  wx:key="" wx:if="{{item.abate}}">
+      <view class="content">
+        <view class='info-left'>
+          <image class="enterpriseImg" src='{{item.enterpriseImg}}'></image>
+          <view class='info-left-text'>
+            <text class='info-postion'>{{item.postion}}</text>
+            <text class='info-demand'>{{item.demand1}}丨{{item.demand2}}丨{{item.demand3}}</text>
+          </view>
+        </view>
+        <view class='info-right'>
+          <image class="abate" src='../../assets/collectionPosition/abate.png' mode=""></image>
+          <text class='price'>{{item.price}}</text>
+          <text class='time'>{{item.time}}</text>
+        </view>
+      </view>
+      <view class="del" catchtap="del" data-index="{{index}}">删除</view>
+    </view>
+  </view>
+</view>

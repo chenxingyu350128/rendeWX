@@ -1,0 +1,132 @@
+<!--pages/common/ocpDetail.wxml-->
+<view class='header'>
+  <view class='ocp'>
+  <view class='layer_1'>
+    <view class='left_1'>
+      <view class='occupation'>某某安全员</view>
+      <view class='demand'>
+        <text space='ensp'>福建-福州 | 不限经验 | 大专</text>
+      </view>
+      <view class='welfare'>
+        <text>五险一金</text>
+        <text>年底双薪</text>
+        <text>节日福利</text>
+      </view>
+    </view>
+    <view class='right_1'>
+      <view class='salary'>3000-8000元</view>
+      <view wx:if='{{showPounty}}' class='pounty'>
+        <text space='nbsp'>赏金: ￥</text>
+        <text class='price'>9999</text>
+      </view>
+      <view class='createAt'>09月12日</view>
+    </view>
+  </view>
+</view>
+<view class='stickShell'>
+  <view class='stick'></view>
+</view>
+<view bindtap='company' class='company'>
+  <view class='left'>
+    <image src='../../assets/home/companyLogo.png'></image>
+    <view>
+      <view class='companyName'>福建博业建设集团有限公司福州分公司</view>
+      <view class='address'>福州市鼓楼区五四路159号世界金龙大厦13层</view>
+    </view>
+  </view>
+  <image src='../../assets/home/arrowRight.png'></image>
+</view>
+</view>
+<view class='desc'>
+  <view class='boxTitle'>
+    <view class='stick'></view>
+    <text>职位描述</text>
+  </view>
+  <view class='describe'>
+    <view>一、协助工程部对公司在建工程的安全管理，对施工现场出现的安全问题给予指出并纠正。</view>
+    <view>二、贯彻执行国家地方有关主管部门关于安全的方针政策、规范、制度的规定，坚持“安全预防为主”的方针。</view>
+    <view>三、认真检查督促施工现场的安全生产的劳动保护及各项安全规定的落实。</view>
+    <view> 四、参加施工方案忠安全生产技术措施的条款立定工作，检查督促条款的实施，负责安全措施标识的管理和使用，及时记录好安全台账。</view>
+    <view>五、负责公司在建项目的常规安全检查活动，并做好检查记录。协助落实奖罚措施，对违章现象进行制止，对一般事故作出处理和记录。</view>
+    <view>六、对进入施工现场的新工人进行安全教育及日常生产的安全教育工作。</view>
+    <view>七、参加对工伤事故的调查、分析、处理、总结和上报等工作。</view>
+ </view>
+</view>
+<view class='ocpDemand'>
+  
+  <view class='boxTitle'>
+    <view class='stick'></view>
+    <text>任职要求</text>
+  </view>
+  <view class='demands'>
+    <view>1、建筑相关专业毕业，3年以上现场安全管理经验</view>
+    <view>2、持有相关证书</view>
+  </view>
+</view>
+<view class='workplace'>
+  <view class='boxTitle'>
+    <view class='stick'></view>
+    <text>工作地点</text>
+    <view class='titleRight'>
+      <text>查看导航</text>
+      <image src='../../assets/home/arrowRight.png'></image>
+    </view>
+  </view>
+  <view class='map'>
+    <map
+      id="myMap"
+      style="width: 100%; height: 313rpx;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      covers="{{covers}}"
+      show-location
+    ></map>
+  </view>
+</view>
+<view class='similar'>
+  <view class='boxTitle'>
+    <view class='stick'></view>
+    <text>其他相似职位</text>
+     <view class='titleRight'>
+      <text>更多</text>
+      <image src='../../assets/home/arrowRight.png'></image>
+    </view>
+  </view>
+  <view bindtap='otherOcp' class='othersShell'>
+    <view class='others'>
+      <view>
+        <view class='occupation'>前端工程师</view>
+        <view class='salary'>3500-7800元</view>
+      </view>
+      <view>
+        <view class='name'>某某股份有限公司</view>
+        <view class='createAt'>09月13日</view>
+      </view>
+    </view>
+  </view>
+  <view bindtap='otherOcp' class='othersShell'>
+   <view class='others'>
+     <view>
+       <view class='occupation'>前端工程师</view>
+       <view class='salary'>3500-7800元</view>
+     </view>
+     <view>
+       <view class='name'>某某股份有限公司</view>
+       <view class='createAt'>09月13日</view>
+     </view>
+   </view>
+  </view>
+</view>
+<view class='block' wx:if="{{show==1}}"></view>
+<view class='shadow' wx:if="{{show==1}}"></view>
+<cover-view class='footerShell' wx:if="{{show==1}}">
+  <cover-view class='footer'>
+    <cover-view class='collect' wx:if="{{client==1}}">
+      <cover-image src='../../assets/home/star.png'></cover-image>
+      <cover-view>收藏岗位</cover-view>
+    </cover-view>
+    <cover-view class=' {{gray?"Do":"gray"}}' wx:if="{{client==1}}" bindtap='toGray'>{{bottomText}}</cover-view>
+    <cover-view class='revise' wx:if="{{client==2}}"><cover-view class='revise-text' catchtap='toPost'>修改</cover-view></cover-view>
+  </cover-view>
+</cover-view>

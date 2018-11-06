@@ -1,0 +1,64 @@
+<!--pages/common/generalDetail.wxml-->
+<view class='shell'>
+  <view class='base'>
+    <view class='left'>
+      <view class='name'>阿福网</view>
+      <view class='ocp'>意向职位：保安</view>
+    </view>
+    <view class='right'>
+      <view class='updateAt'>2018-09-03</view>
+      <view class='view'>浏览：7</view>
+    </view>
+  </view>
+  <view class='baseInfo'>
+    <view class='title'>基本信息</view>
+    <view class='year'>工作年限:
+      <text>6年以上</text>
+    </view>
+    <view class='mobile'>联系电话:
+      <text>13799772639</text>
+    </view>
+  </view>
+  <view class='selfIntro'>
+    <view class='title'>自我介绍</view>
+    <view class='detail'>擅长安保工作，多年经验。</view>
+  </view>
+  <view class='edit'>
+    <view class='title'>管理信息</view>
+    <view class='btns'>
+      <text class='blue'>刷新</text>
+      <text bindtap='edit' class='green'>修改</text>
+      <text class='red'>删除</text>
+    </view>
+  </view>
+</view>
+<view wx:if="{{showFillBox}}" class='fillBox'>
+  <view class='footer'>
+    <view bindtap='confirm'>确认</view>
+  </view>
+  <view class='table'>
+    <view class='align'>
+      <text space='emsp'>姓  名：</text>
+      <input></input>
+    </view>
+    <view class='align'>
+      <text space='emsp'>性  别：</text>
+      <text data-id='1' bindtap='gender' class='gender {{gender==1?"checked":""}}'>男</text>
+      <text data-id='0' bindtap='gender' class='gender {{gender==0?"checked":""}}'>女</text>
+    </view>
+    <view class='align'>
+      <text>联系电话：</text>
+      <input></input>
+    </view>
+    <view class='align'>
+      <text>工作年限：</text>
+      <input></input>
+    </view>
+    <view class='text'>
+      <text space='emsp'>自我介绍：</text>
+      <textarea maxlength='250'>{{selfIntro}}</textarea>
+    </view>
+  </view>
+  <view class='board'></view>
+  
+</view>

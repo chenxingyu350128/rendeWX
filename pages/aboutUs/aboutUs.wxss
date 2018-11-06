@@ -1,0 +1,50 @@
+/* pages/aboutUs/aboutUs.wxss */
+page{
+  background: #f7f7f7;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+}
+.wrap view:nth-child(1){
+  margin-top: 10rpx;
+}
+.wrap view:nth-child(1) image{
+  width: 330rpx;
+  height: 170rpx;
+}
+.wrap view:nth-child(1) text{
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.wrap view:nth-child(2),.wrap view:nth-child(3),.wrap view:nth-child(4){
+  height: 96rpx;
+  font-size: 0.8em;
+  border-top: 2rpx solid #f7f7f7;
+}
+.wrap view:nth-child(2) image{
+  width: 36rpx;
+  height: 36rpx;
+  margin-left: 53rpx;
+}
+.wrap view:nth-child(2) text{
+  margin-left: 54rpx;
+}
+.wrap view:nth-child(3) image{
+  width: 26rpx;
+  height: 41rpx;
+  margin-left: 58rpx;
+}
+.wrap view:nth-child(3) text{
+  margin-left: 58rpx;
+}
+.wrap view:nth-child(4) image{
+  width: 29rpx;
+  height: 28rpx;
+  margin-left: 57rpx;
+}
+.wrap view:nth-child(4) text{
+  margin-left: 56rpx;
+}

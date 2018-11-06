@@ -1,0 +1,23 @@
+/* pages/common/shopDetail.wxss */
+@import '/pages/common/generalDetail.wxss';
+.salary{
+  color: #f00;
+  margin-right: 15rpx;
+}
+.address{
+  margin-top: 39rpx;
+}
+.address text{
+  color: #939393;
+  margin-left: 1em;
+}
+.table{
+  padding: 29rpx 72rpx 42rpx;
+}
+.table textarea{
+  min-height: 245rpx;
+  height: auto;
+}
+.align:first-child {
+ margin-right:0rpx;
+}

@@ -1,0 +1,104 @@
+<!--pages/common/general.wxml-->
+<view class='opt'>
+ <picker bindchange="picker1" value="{{index1}}" range="{{range1}}">
+  <text class='title'>{{area}}</text>
+  <image src='../../assets/home/arrowDown.png'></image>
+ </picker>
+ <picker bindchange="picker2" value="{{index2}}" range="{{range2}}">
+  <text class='title'>{{factory}}</text>
+  <image src='../../assets/home/arrowDown.png'></image>
+ </picker>
+</view>
+<view class='huntShell'>
+  <view bindtap='detail' class='huntBox'>
+    <view class='huntFor'>
+      <text>求职：</text>
+      <text>保安</text>
+    </view>
+    <view class='intro'>
+      <image src='../../assets/home/person.png'></image>
+      <text space='nbsp'>孙先生 / 男 /6年</text>
+    </view>
+    <view class='borderOnly'></view>
+    <view class='desc'>简介：擅长安保工作，多年经验</view>
+    <view class='date'>09月12日</view>
+  </view>
+  <view bindtap='detail' class='huntBox'>
+    <view class='huntFor'>
+      <text>求职：</text>
+      <text>保安</text>
+    </view>
+    <view class='intro'>
+      <image src='../../assets/home/person.png'></image>
+      <text space='nbsp'>孙先生 / 男 /6年</text>
+    </view>
+    <view class='borderOnly'></view>
+    <view class='desc'>简介：擅长安保工作，多年经验</view>
+    <view class='date'>09月12日</view>
+  </view>
+  <view bindtap='detail' class='huntBox'>
+    <view class='huntFor'>
+      <text>求职：</text>
+      <text>保安</text>
+    </view>
+    <view class='intro'>
+      <image src='../../assets/home/person.png'></image>
+      <text space='nbsp'>孙先生 / 男 /6年</text>
+    </view>
+    <view class='borderOnly'></view>
+    <view class='desc'>简介：擅长安保工作，多年经验</view>
+    <view class='date'>09月12日</view>
+  </view>
+  <view bindtap='detail' class='huntBox'>
+    <view class='huntFor'>
+      <text>求职：</text>
+      <text>保安</text>
+    </view>
+    <view class='intro'>
+      <image src='../../assets/home/person.png'></image>
+      <text space='nbsp'>孙先生 / 男 /6年</text>
+    </view>
+    <view class='borderOnly'></view>
+    <view class='desc'>简介：擅长安保工作，多年经验</view>
+    <view class='date'>09月12日</view>
+  </view>
+  <view bindtap='detail' class='huntBox'>
+    <view class='huntFor'>
+      <text>求职：</text>
+      <text>保安</text>
+    </view>
+    <view class='intro'>
+      <image src='../../assets/home/person.png'></image>
+      <text space='nbsp'>孙先生 / 男 /6年</text>
+    </view>
+    <view class='borderOnly'></view>
+    <view class='desc'>简介：擅长安保工作，多年经验</view>
+    <view class='date'>09月12日</view>
+  </view>
+  <view bindtap='detail' class='huntBox'>
+    <view class='huntFor'>
+      <text>求职：</text>
+      <text>保安</text>
+    </view>
+    <view class='intro'>
+      <image src='../../assets/home/person.png'></image>
+      <text space='nbsp'>孙先生 / 男 /6年</text>
+    </view>
+    <view class='borderOnly'></view>
+    <view class='desc'>简介：擅长安保工作，多年经验</view>
+    <view class='date'>09月12日</view>
+  </view>
+  <view bindtap='detail' class='huntBox'>
+    <view class='huntFor'>
+      <text>求职：</text>
+      <text>保安</text>
+    </view>
+    <view class='intro'>
+      <image src='../../assets/home/person.png'></image>
+      <text space='nbsp'>孙先生 / 男 /6年</text>
+    </view>
+    <view class='borderOnly'></view>
+    <view class='desc'>简介：擅长安保工作，多年经验</view>
+    <view class='date'>09月12日</view>
+  </view>
+</view>

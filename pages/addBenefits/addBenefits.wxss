@@ -1,0 +1,87 @@
+/* pages/addBenefits/addBenefits.wxss */
+page{
+  background:#f7f7f7;
+}
+.sectected-title{
+  font-size: 0.8em;
+  margin-left: 30rpx;
+  margin-top: 22rpx;
+}
+.sectected{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #fff;
+  /* padding-top: 12rpx; */
+  padding-left: 29rpx;
+  padding-bottom: 12rpx;
+  margin-top: 13rpx;
+}
+.sectected-item{
+  display: flex;
+  flex-direction: row;
+  flex-grow: nowrap;
+  position: relative;
+  padding: 9rpx 32rpx;
+  border: 2rpx solid #3385ff;
+  border-radius: 50rpx;
+  margin-right: 42rpx;
+  margin-top: 12rpx;
+}
+.text{
+  font-size: 0.85em;
+  display: flex;
+  flex-direction: row;
+  flex-grow: nowrap;
+}
+.red{
+  position: absolute;
+  top:-10rpx;
+  background: red;
+  width: 20rpx;
+  height: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  right: 0rpx;
+  border-radius: 100%;
+  /* line-height: 20rpx; */
+  font-size: 0.7em;
+}
+.del{
+  position: absolute;
+  width: 60%;
+  height: 4rpx;
+  background: #fff;
+}
+.no-sectect-title{
+  margin-top: 22rpx;
+  margin-left: 30rpx;
+  font-size: 0.8em;
+}
+.no-sectect{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #fff;
+  padding-top: 12rpx;
+  padding-left: 29rpx;
+  padding-bottom: 12rpx;
+  margin-top: 13rpx;
+}
+.no-sectect-item{
+  display: flex;
+  flex-direction: row;
+  flex-grow: nowrap;
+  position: relative;
+  padding: 9rpx 32rpx;
+  border: 2rpx solid #b3b3b3;
+  border-radius: 50rpx;
+  margin-right: 42rpx;
+  margin-top: 12rpx;
+}
