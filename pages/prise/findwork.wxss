@@ -1,0 +1,24 @@
+/* pages/prise/findwork.wxss */
+@import '/pages/tab/index.wxss';
+@import '/pages/tab/talent.wxss';
+.findwork-select{
+  width: 100%;
+  border-bottom:1px solid whitesmoke;
+}
+.work-list{
+  display:flex;
+justify-content:space-between;
+margin-bottom:17rpx;
+width:100%;
+padding-top:8px;
+}
+
+.work-list .right_1{
+  text-align:right;
+}
+.wlc {
+padding:17rpx 34rpx 23rpx 30rpx;
+margin:0 0 20rpx 0;
+background:#fff;
+
+}

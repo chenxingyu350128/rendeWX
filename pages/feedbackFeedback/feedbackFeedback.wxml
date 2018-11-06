@@ -1,0 +1,38 @@
+<!--pages/feedbackFeedback/feedbackFeedback.wxml-->
+<view class='classify'>
+  <text class='title'>分类标签</text>
+  <view class='classify-item'>
+    <text class="common {{classify==index?'active':''}}" wx:for="{{classifyList}}" data-index='{{index}}' bindtap='choose'>{{item}}</text>
+  </view>
+</view>
+<view class='connent'>
+  <text class='title'>反馈内容</text>
+  <view class='connent-item'>
+    <textarea placeholder='请输入你的反馈意见'></textarea>
+      <view class="num">       
+        <view class='pic-wrap'>
+          <view class="we-uploader__files" >
+            <view class="num1" wx:for="{{photos}}" wx:for-item="image">
+              <view class="we-uploader__file">
+                <image class="we-uploader__img" mode="{{mode}}" src="{{image.src}}" data-idx="{{index}}" bindtap="previewImage"></image>
+                <view class="q-image-remover" data-idx="{{index}}" bindtap="removeImage"><icon type='clear' size='12' color='red'></icon></view>
+              </view>    
+            </view>
+          </view>
+          <!-- wx:if="{{photos.length < 5}}"  可控制上传照片的按钮   使图片控制在5张的数量 -->
+          <view class="we-uploader__input-box" wx:if="{{photos.length < 5}}" >
+            <view class="we-uploader__input" bindtap="chooseImage"><image src="../../assets/feedbackFeedback/pic.png"></image></view>
+          </view>
+        </view>
+      </view> 
+  </view>
+</view>
+<view class='tel'>
+  <text class='title'>联系方式</text>
+  <view class='tel-item'>
+    <input placeholder='如需得到反馈，请输入你的联系方式'></input>
+  </view>
+</view>
+<view class="submit" bindtap='submit'>
+  <text>提交反馈</text>
+</view>

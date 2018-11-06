@@ -1,0 +1,23 @@
+/* pages/modifyInformation/name.wxss */
+page{
+  background: #f7f7f7;
+}
+.name-wrap{
+  margin-top: 15rpx;
+}
+.name-item{
+  background: #fff;
+  padding: 15rpx;
+  padding-right: 0rpx;
+  padding-bottom: 0rpx;
+  font-size: 1em;
+}
+input{
+  border-bottom: 2rpx solid #b2b2b2;
+  width: 100%;
+}
+button{
+  width: 100%;
+  position: fixed;
+  bottom: 100rpx;
+}

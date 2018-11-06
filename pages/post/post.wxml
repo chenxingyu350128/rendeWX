@@ -1,0 +1,78 @@
+<!--pages/post/post.wxml-->
+<view class='position-wrap'>
+    <view class='position'>招聘职位</view>
+    <view class='position-name-wrap'>
+     <input class='position-name' value='安全工程师或安全员'></input>
+     <view class='arrow'></view> 
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>公司名称</view>
+    <view class='position-name-wrap'>
+     <input class='position-name' value='福建博业建设集团有限公司福州分公司'></input>
+     <view class='arrow'></view> 
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>薪资待遇</view>
+    <view class='position-name-wrap'>
+     <view class='position-name'>3000-8000元</view>
+     <view class='arrow'></view> 
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>工作经验</view>
+    <view class='position-name-wrap'>
+     <view class='position-name'>不限经验</view>
+     <view class='arrow'></view> 
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>学历要求</view>
+    <view class='position-name-wrap'>
+     <view class='position-name'>不限</view>
+     <view class='arrow'></view> 
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>工作位置</view>
+    <view class='position-name-wrap'>
+     <input class='position-name' value='福州市鼓楼区五四路159号世界金龙大厦13层'></input>
+     <view class='arrow'></view> 
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>福利待遇</view>
+    <view class='position-name-wrap welfare-wrap1'>
+     <view class='position-name welfare-wrap'>
+      <text class="welfare">五险一金</text>
+      <text class="welfare">年底双薪</text>
+      <text class="welfare">节日福利</text>
+      <view class="welfare add" catchtap='toAddBenefits'><image class='symbol' src="../../assets/post/add.png"></image>添加</view>
+      </view>
+    </view>
+</view>
+<view class='position-wrap'>
+    <view class='position'>任职要求</view>
+    <view class='position-name-wrap post-requirements'>
+     <textarea class="position-name text-area text-area1" value="{{txtContent1}}" bindinput='txtInput1'/>
+     <view class='word-number'>
+      <text class='blue'>{{currentWordNumber1}}</text><text class='black'>/{{max}}</text>
+     </view>
+    </view> 
+</view>
+<view class='position-wrap'>
+    <view class='position'>职位说明</view>
+    <view class='position-name-wrap post-requirements'>
+     <textarea class="position-name text-area" value="{{txtContent2}}" bindinput='txtInput2'/>
+      <view class='word-number'>
+      <text class='blue'>{{currentWordNumber2}}</text><text class='black'>/{{max}}</text>
+     </view>
+    </view>
+</view>
+<view class='block'></view>
+<view class='shadow'></view>
+<cover-view class='info-bottom'>
+  <cover-view class='bottom-finish'>发布</cover-view>
+</cover-view>
+

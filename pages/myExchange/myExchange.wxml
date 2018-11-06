@@ -1,0 +1,18 @@
+<!--pages/myExchange/myExchange.wxml-->
+
+<view class="nav_tab">
+  <view wx:for="{{list}}" wx:key="index" data-index='{{index}}' bindtap="selected" class='nav'>
+    <text class="text1 {{selected==index?'active':'common'}}">{{item.name}}</text>
+    <text class="{{item.arrow?'arrow3':'arrow2'}}" wx:if="{{item.name!='全部'}}"></text>
+  </view>
+</view>
+<view class='exchange'>
+  <view class='exchange-item' wx:for="{{exchangeList}}">
+    <view class='left'><image src='{{item.exchangeImg}}'></image></view>
+    <view class='mid'>
+      <text class='name'>{{item.name}}</text>
+      <view class='value'><text class='blue'>{{item.value}}</text><text class='text'>个积分</text></view>
+    </view>
+    <view class='right'>{{item.time}}</view>
+  </view>
+</view>

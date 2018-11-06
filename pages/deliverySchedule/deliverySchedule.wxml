@@ -1,0 +1,63 @@
+<!--pages/deliverySchedule/deliverySchedule.wxml-->
+<!-- tab框  -->
+<view class="nav_title">
+  <view class="nav_tab">
+    <view wx:for="{{list}}" wx:key="index" data-index='{{index}}' bindtap="selected">
+      <text class="{{selected==index?'active':'common'}}">{{item}}</text>
+    </view>
+  </view>
+  <!-- tab框显示内容 -->
+  <!-- 全部-->
+  <view wx:if="{{selected == 0}}">
+    <view class='info touch-item' wx:for="{{positionList}}">
+      <view class="content">
+        <view class='info-left'>
+          <text class='info-postion'>{{item.postion}}</text>
+          <text class='time'>{{item.time}}</text>
+        </view>
+        <view class='price-wrap'><text class='price'>{{item.price}}</text></view>
+        <view class='info-right'>
+          <text class='info-demand'>{{item.enterprise}}</text>
+          <text class='info-state'>{{item.state}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 简历被查看-->
+  <view wx:if="{{selected == 1}}">
+    <view class='info touch-item' wx:for="{{positionList}}" wx:if="{{item.state=='简历被查看'}}">
+      <view class="content">
+        <view class='info-left'>
+          <text class='info-postion'>{{item.postion}}</text>
+          <text class='time'>{{item.time}}</text>
+        </view>
+        <view class='price-wrap'><text class='price'>{{item.price}}</text></view>
+        <view class='info-right'>
+          <text class='info-demand'>{{item.enterprise}}</text>
+          <text class='info-state'>{{item.state}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+
+  <!-- 失效 -->
+  <view wx:if="{{selected == 2}}">
+    <view class='info touch-item' wx:for="{{positionList}}" wx:if="{{item.state=='不合适'}}">
+      <view class="content">
+        <view class='info-left'>
+          <text class='info-postion'>{{item.postion}}</text>
+          <text class='time'>{{item.time}}</text>
+        </view>
+        <view class='price-wrap'><text class='price'>{{item.price}}</text></view>
+        <view class='info-right'>
+          <text class='info-demand'>{{item.enterprise}}</text>
+          <text class='info-state'>{{item.state}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+

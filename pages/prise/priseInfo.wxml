@@ -1,0 +1,122 @@
+<!--pages/prise/priseInfo.wxml-->
+<!-- 公司岗位信息 -->
+<view class='priseinfobg '>
+  <image src='/assets/prise/priseinfo-bg.jpg'></image>
+</view>
+
+<view class='priseinfo'>
+  <text class='prise-name'>博业建设</text>
+  <view class='prise-fullname FS FS-weight'>
+    福建博业建设集团有限该公司福州分公司
+  </view>
+  <view class='prise-fullname FS-middle'>
+    <text>建筑 /房地产</text> 
+     <text>民营企业</text> 
+      <text>10-50人</text> 
+      <text bindtap='follow' wx:if='{{status==0}}' data-index='1'>关注</text> 
+      <text class="getFollow {{status==1?'getFollow':''}}" bindtap='cancleFollow' wx:if='{{status==1}}' data-index='0'>已关注</text> 
+  </view>
+</view>
+<!-- 公司详情菜单栏 -->
+<view class='prise-banner FS'>
+    <text bindtap='prise' data-id="1" class="p_cate {{p_cate==1?'banner-active':''}}">公司信息</text>
+    <text bindtap='prise' data-id="2" class="p_cate {{p_cate==2?'banner-active':''}}">岗位信息</text>
+</view>
+
+
+<!-- 公司信息部分 -->
+<view class='prise-message' wx:if="{{p_cate==1}}">
+    <view class='prise-box'>
+      <view class="colG FS box-content {{showflag==0?'box-height':''}}">
+          福建博业建设集团有限公司于2005年5月26日在厦门市市场监督管理局登记成立。法定代表人曹汝忠，公司经营范围包括房屋建筑工程、市政公用工程、建筑装修装饰工程等。福建博业建设集团有限公司于2005年5月26日在厦门市市场监督管理局登记成立。法定代表人曹汝忠，公司经营范围包括房屋建筑工程、市政公用工程、建筑装修装饰工程等。
+      </view>
+      <view class='showmore'>
+            <image src='/assets/prise/show.jpg' bindtap='showmore' data-num='1' class="showflag {{showflag==1?'show':''}}" ></image>
+      </view>
+    <!-- 公司地址 -->
+        <view class='talent-Info fl FS' style='border:none'>
+              <view class='intr-expr'>公司地址</view>
+                <view class='FS colG'> 
+                  <view class='priseInfo-name overhide'> 福州市鼓楼区五四15楼区五四1楼区五四1楼区五四1楼区五四1楼区五四1</view>
+                    <image src='/assets/talent/next.jpg' class='go-icon fr'></image> 
+                    <text class='fr expr-time colG' bindtap='lookMap'> 查看地图</text>
+                </view> 
+        </view>
+        <!-- 联系邮箱 -->
+        <view class='talent-Info fl FS'style='border:none'>
+              <view class='intr-expr'>联系邮箱</view>
+                <view class='FS colG'> 
+                  <text class=''> 12345678@qq.com</text>
+                </view> 
+        </view>
+        <!-- 公司官网 -->
+        <view class='talent-Info fl FS'style='border:none'>
+              <view class='intr-expr'>公司官网</view>
+                <view class='FS colG'> 
+                  <text class=''> 12345678@qq.com</text>
+                </view> 
+        </view>
+        <!-- 工商信息 -->
+        <view class='talent-Info fl FS'style='border:none'>
+              <view class='intr-expr'>工商信息</view>
+                <view class='FS colG'> 
+                  <text class=''> 福州市鼓楼区五四156</text>
+                </view> 
+        </view>
+
+
+    </view>
+
+</view>
+
+<!-- 岗位信息部分 -->
+
+<view class='position-message' wx:if="{{p_cate==2}}">
+  <view class='positionhr'></view>
+ <!-- 岗位列表 -->
+<view class='talent-Info fl FS'>
+        <view class='FS list-margin'> 
+           <text class='FS-weight'> 安全工程师或者安全员</text>
+            <text class='fr expr-time colB'> 3000-5000元</text>
+        </view> 
+         <view class='FS list-margin'> 
+           <text class='colG priseInfo-name overhide'> 福建博业建设集团有限公司福州分公司</text>
+            <text class='FS-middle fr'> 09月12日</text>
+        </view> 
+      
+</view>
+<view class='talent-Info fl FS'>
+        <view class='FS list-margin'> 
+           <text class='FS-weight'> 安全工程师或者安全员</text>
+            <text class='fr expr-time colB'> 3000-5000元</text>
+        </view> 
+         <view class='FS list-margin'> 
+           <text class='colG priseInfo-name overhide'> 福建博业建设集团有限公司福州分公司</text>
+            <text class='FS-middle fr'> 09月12日</text>
+        </view> 
+      
+</view>
+<view class='talent-Info fl FS'>
+        <view class='FS list-margin'> 
+           <text class='FS-weight'> 安全工程师或者安全员</text>
+            <text class='fr expr-time colB'> 3000-5000元</text>
+        </view> 
+         <view class='FS list-margin'> 
+           <text class='colG priseInfo-name overhide'> 福建博业建设集团有限公司福州分公司</text>
+            <text class='FS-middle fr'> 09月12日</text>
+        </view> 
+      
+</view>
+<view class='talent-Info fl FS'>
+        <view class='FS list-margin'> 
+           <text class='FS-weight'> 安全工程师或者安全员</text>
+            <text class='fr expr-time colB'> 3000-5000元</text>
+        </view> 
+         <view class='FS list-margin'> 
+           <text class='colG priseInfo-name overhide'> 福建博业建设集团有限公司福州分公司</text>
+            <text class='FS-middle fr'> 09月12日</text>
+        </view> 
+      
+</view>
+
+</view>

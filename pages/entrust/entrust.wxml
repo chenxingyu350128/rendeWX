@@ -1,0 +1,45 @@
+<!--pages/entrust/entrust.wxml-->
+<view class="nav_title">
+  <view class="nav_tab">
+    <view wx:for="{{list}}" wx:key="index" data-index='{{index}}' bindtap="selected">
+      <text class="{{selected==index?'active':'common'}}">{{item}}</text>
+    </view>
+  </view>
+  <!-- tab框显示内容 -->
+  <!-- 企业委托-->
+  <view wx:if="{{selected == 0}}">
+    <view class='postion-item-wrap'  wx:for="{{enterpriseList}}">
+      <view class='postion-item'>
+        <view class='postion-item-left'><text class='name'>{{item.name}}</text><text class='money'>{{item.money}}</text></view>
+        <view class='postion-item-right'><text class='state'>赏金：￥<text class='blue'>{{item.reward}}</text></text><text class='time'>{{item.time}}</text></view>
+      </view>
+      <view class='line-wrap'><view class='line'></view></view>
+      <view class='bottom'>
+        <view class='bottom-left'>
+          <text class='enterprise'>{{item.enterprise}}</text>
+          <text class='request'>{{item.request}}</text>
+        </view>
+        <view class='arrow'></view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 人才委托 -->
+  <view wx:if="{{selected == 1}}">
+    <view class='postion-item-wrap'  wx:for="{{enterpriseList}}">
+      <view class='postion-item'>
+        <view class='postion-item-left'><text class='name'>{{item.name}}</text><text class='money'>{{item.money}}</text></view>
+        <view class='postion-item-right'><text class='state'>赏金：￥<text class='blue'>{{item.reward}}</text></text><text class='time'>{{item.time}}</text></view>
+      </view>
+      <view class='line-wrap'><view class='line'></view></view>
+      <view class='bottom'>
+        <view class='bottom-left'>
+          <text class='enterprise'>{{item.enterprise}}</text>
+          <text class='request'>{{item.request}}</text>
+        </view>
+        <view class='arrow'></view>
+      </view>
+    </view>
+  </view>
+</view>
+

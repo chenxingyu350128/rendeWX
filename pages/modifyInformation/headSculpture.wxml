@@ -1,0 +1,6 @@
+<!--pages/modifyInformation/headSculpture.wxml-->
+<view class='image-wrap'>
+  <image src="{{headSculpture}}" mode='aspectFill' bindtap="previewImage"></image>
+</view>
+<button type='primary' bindtap="chooseImage">选择头像</button>
+<button type='primary' bindtap="returnToRevise">保存</button>

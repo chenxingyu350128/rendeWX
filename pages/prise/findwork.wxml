@@ -1,0 +1,132 @@
+<!--pages/prise/findwork.wxml-->
+<!-- 找工作 -->
+  <view class='findwork-select fl'> 
+    <!-- 区域 -->
+      <view class='select-box'>
+          <view class="phone_one fl" bindtap="clickPerson">
+            <view class="phone_personal fl">{{firstPerson}}</view>
+            <image src="/assets/talent/select.jpg" class="personal_image {{selectArea ? 'rotateRight' :''}}"></image> 
+            <!-- //三目法判断图片要不要旋转180。 -->
+        </view>
+        <!-- 下拉内容 -->
+        <view class="person_box">
+          <view class="phone_select" hidden="{{selectPerson}}">
+            <view class="select_one" bindtap="mySelect" data-me="不限">不限</view>
+            <view class="select_one" bindtap="mySelect" data-me="福建">福建</view>
+            <view class="select_one" bindtap="mySelect" data-me="北京">北京</view>
+            <view class="select_one" bindtap="mySelect" data-me="四川">四川</view>
+          </view>
+        </view>
+      </view>
+
+<!-- 行业 -->
+      <view class='select-box'>
+    <view class="phone_one fl" bindtap="clickPerson">
+      <view class="phone_personal fl">{{secondPerson}}</view>
+      <image src="/assets/talent/select.jpg" class="personal_image {{selectArea ? 'rotateRight' :''}}"></image> 
+      <!-- //三目法判断图片要不要旋转180。 -->
+   </view>
+   <!-- 下拉内容 -->
+  <view class="person_box">
+    <view class="phone_select" hidden="{{selectPerson}}">
+      <view class="type_one" bindtap="typeSelect" data-me="不限">不限</view>
+      <view class="type_one" bindtap="typeSelect" data-me="电子商务">电子商务</view>
+      <view class="type_one" bindtap="typeSelect" data-me="游戏">游戏</view>
+      <view class="type_one" bindtap="typeSelect" data-me="自媒体">自媒体</view>
+    </view>
+  </view>
+</view>
+<!-- 经验 -->
+<view class='select-box'>
+    <view class="phone_one fl" bindtap="clickPerson">
+      <view class="phone_personal fl">{{thirdPerson}}</view>
+      <image src="/assets/talent/select.jpg" class="personal_image {{selectArea ? 'rotateRight' :''}}"></image> 
+      <!-- //三目法判断图片要不要旋转180。 -->
+   </view>
+   <!-- 下拉内容 -->
+  <view class="person_box">
+    <view class="phone_select" hidden="{{selectPerson}}">
+      <view class="expr_one" bindtap="exprselect" data-me="不限">不限</view>
+      <view class="expr_one" bindtap="exprselect" data-me="1-10人">1-10人</view>
+      <view class="expr_one" bindtap="exprselect" data-me="10-99人">1-10人</view>
+      <view class="expr_one" bindtap="exprselect" data-me="100-999人">100-999人</view>
+    </view>
+  </view>
+</view>
+ </view>
+
+ <view bindtap='detail' class='wlc'>
+  <view class='work-list'>
+    <view class='left_1'>
+      <view class='occupation'>某某安全员</view>
+      <view class='demand'>
+        <text space='ensp'>福建-福州 | 不限经验 | 大专</text>
+      </view>
+    </view>
+    <view class='right_1'>
+      <view class='salary'>3000-8000元</view>
+      <view class='createAt'>09月12日</view>
+    </view>
+  </view>
+  <view class='layer_2'>
+    <image class='left_2' src='../../assets/home/companyLogo1.png'></image>
+    <view class='right_2'>
+      <view class='companyName'>xxoo公司</view>
+      <view class='welfare'>
+        <text>五险一金</text>
+        <text>年底双薪</text>
+        <text>节日福利</text>
+      </view>
+    </view>
+  </view>
+</view>
+ <view bindtap='detail' class='wlc'>
+  <view class='work-list'>
+    <view class='left_1'>
+      <view class='occupation'>某某安全员</view>
+      <view class='demand'>
+        <text space='ensp'>福建-福州 | 不限经验 | 大专</text>
+      </view>
+    </view>
+    <view class='right_1'>
+      <view class='salary'>3000-8000元</view>
+      <view class='createAt'>09月12日</view>
+    </view>
+  </view>
+  <view class='layer_2'>
+    <image class='left_2' src='../../assets/home/companyLogo1.png'></image>
+    <view class='right_2'>
+      <view class='companyName'>xxoo公司</view>
+      <view class='welfare'>
+        <text>五险一金</text>
+        <text>年底双薪</text>
+        <text>节日福利</text>
+      </view>
+    </view>
+  </view>
+</view>
+ <view bindtap='detail' class='wlc'>
+  <view class='work-list'>
+    <view class='left_1'>
+      <view class='occupation'>某某安全员</view>
+      <view class='demand'>
+        <text space='ensp'>福建-福州 | 不限经验 | 大专</text>
+      </view>
+    </view>
+    <view class='right_1'>
+      <view class='salary'>3000-8000元</view>
+      <view class='createAt'>09月12日</view>
+    </view>
+  </view>
+  <view class='layer_2'>
+    <image class='left_2' src='../../assets/home/companyLogo1.png'></image>
+    <view class='right_2'>
+      <view class='companyName'>xxoo公司</view>
+      <view class='welfare'>
+        <text>五险一金</text>
+        <text>年底双薪</text>
+        <text>节日福利</text>
+      </view>
+    </view>
+  </view>
+</view>

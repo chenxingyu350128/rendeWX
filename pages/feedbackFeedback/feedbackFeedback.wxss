@@ -1,0 +1,166 @@
+/* pages/feedbackFeedback/feedbackFeedback.wxss */
+page{
+  background: #f7f7f7;
+}
+.classify{
+  margin-top: 14rpx;
+}
+.classify .title{
+  margin-left: 31rpx;
+  font-size: 0.9em;
+}
+.classify-item{
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  padding: 22rpx 0 27rpx 47rpx;
+  margin-top: 12rpx;
+}
+.common{
+  width: 131rpx;
+  height: 53rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2rpx solid #b3b3b3;
+  font-size: 0.7em;
+  margin-right: 41rpx;
+  border-radius: 10rpx;
+}
+.active{
+  border: 2rpx solid #3385ff;
+  color: #3385ff;
+}
+.connent{
+  margin-top: 14rpx;
+}
+.connent .title{
+  margin-left: 31rpx;
+  font-size: 0.9em;
+}
+.connent-item{
+  margin-top: 12rpx;
+  padding-left: 31rpx;
+  padding-right: 31rpx;
+  background: #fff;
+  padding-top: 16rpx;
+  padding-bottom: 16rpx;
+}
+textarea{
+  width: 100%;
+  font-size: 0.8em;
+}
+/* .image-wrap{
+  width: 95rpx;
+  height: 95rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2rpx dotted #b3b3b3;
+  margin-top: 20rpx;
+}
+.image-wrap image{
+  width: 59rpx;
+  height: 55rpx;
+} */
+.tel{
+  margin-top: 14rpx;
+}
+.tel .title{
+  margin-left: 31rpx;
+  font-size: 0.9em;
+}
+.tel-item{
+  margin-top: 12rpx;
+  padding-left: 31rpx;
+  padding-right: 31rpx;
+  background: #fff;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  font-size: 0.8em;
+}
+
+.submit{
+  position: absolute;
+  bottom: 0;
+  background: #3385ff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  font-size: 0.9em;
+  padding-top:37rpx;
+  padding-bottom:37rpx;
+}
+
+
+
+
+
+
+.we-uploader__input{
+  width: 95rpx;
+  height: 95rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2rpx dotted #b3b3b3;
+  margin-top: 20rpx;
+  /* background: red; */
+  /* border-radius: 100%; */
+}
+.we-uploader__input>image{
+  width: 59rpx;
+  height: 55rpx;
+}
+
+.pic-wrap{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+}
+/* 上传的图片 */
+.we-uploader__files{
+  display: flex;
+  flex-direction: row;
+}
+.we-uploader__file{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 20rpx;
+}
+.we-uploader__img {
+  width:95rpx;
+  height:95rpx;
+  border:2rpx dotted #b3b3b3;
+  margin-right: 30rpx;
+  /* border-radius: 10rpx; */
+} 
+.fuli-bottom .num1{
+  display:inline-block;
+  word-wrap : break-word ;
+  word-break:break-all; 
+  margin-right: 20rpx;
+  color: #fff;
+  /* font-size: 30rpx; */
+  /* border:1px dotted #d7ac6b; */
+  z-index:1;
+  border-radius:10rpx;
+  justify-content:center;
+  align-items:center;
+  position: relative;
+}
+.q-image-remover {
+  text-align: center;
+  color: #000;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top:-20rpx;
+  left: 90rpx;
+}

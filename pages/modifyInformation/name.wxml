@@ -1,0 +1,7 @@
+<!--pages/modifyInformation/name.wxml-->
+<view class='name-wrap'>
+  <view class='name-item'>
+    <input class='lt' value='{{name}}' />
+  </view>
+</view>
+<button type='primary' bindtap="returnToRevise">保存</button>

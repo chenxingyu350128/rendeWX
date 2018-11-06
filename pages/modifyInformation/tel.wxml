@@ -1,0 +1,7 @@
+<!--pages/modifyInformation/tel.wxml-->
+<view class='tel-wrap'>
+  <view class='tel-item'>
+    <input class='lt' value='{{tel}}' />
+  </view>
+</view>
+<button type='primary' bindtap="returnToRevise">保存</button>
